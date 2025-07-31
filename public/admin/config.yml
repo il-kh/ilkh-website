@@ -1,0 +1,53 @@
+backend:
+  name: test-repo
+  local_backend: true
+  # name: git-gateway
+  # branch: main  # or "master" if using that
+
+media_folder: "public/images/projects/{{slug}}"
+public_folder: "/images/projects/{{slug}}"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Project Title", widget: "string", required: true }
+      - {
+          name: "category",
+          label: "Category",
+          widget: "select",
+          options: [
+            { label: "Integrated Building Design", value: "integrated-building-design" },
+            { label: "Infrastructure & Environment", value: "infrastructure-and-environment" },
+            { label: "Structural Engineering & Building Assessment", value: "structural-engineering-and-building-assessment" },
+            { label: "Geotechnical Engineering", value: "geotechnical-engineering" },
+            { label: "Project Management & Construction Supervision", value: "project-management-and-construction-supervision" },
+            { label: "Surveying & Geo-Information Systems", value: "surveying-and-geo-information-systems" }
+          ]
+        }
+      - {
+          name: "thumbnail",
+          label: "Thumbnail Image",
+          widget: "image",
+          required: true,
+        }
+      - {
+          name: "gallery",
+          label: "Gallery Images",
+          widget: "list",
+          field:
+            {
+              label: "Image",
+              name: "image",
+              widget: "image"
+            }
+        }
+      - { name: "isShowcase", label: "Showcase Project?", widget: "boolean", default: false }
+      - { name: "dateStart", label: "Start Date", widget: "date", required: true }
+      - { name: "dateEnd", label: "End Date", widget: "date", required: false }
+      - { name: "summary", label: "Summary", widget: "string", required: true }
+      - { name: "body", label: "Project Description", widget: "markdown", required: true }
+

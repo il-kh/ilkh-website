@@ -1,0 +1,50 @@
+.main-nav-item {
+  font-family: 'Bebas Neue Pro', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16pt;
+  color: #b2b2b2;
+}
+.main-nav-item:hover {
+  color: #0d0d0d; 
+}
+
+.headline {
+  font-family: 'Bebas Neue Pro', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25pt;
+  background-color: transparent;
+  color: #002240;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.headline-h2{
+  font-size: 22pt;
+}
+
+.headline-h1-light{
+  color: #b2b2b2;
+  font-size: 32pt;
+}
+
+.subline {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14pt;
+  color: #0d0d0d;
+}
+
+.subline-h2-light {
+  font-size: 20pt;
+  color: #b2b2b2;
+}
+
+.text-std {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+  color: #0d0d0d;
+}
