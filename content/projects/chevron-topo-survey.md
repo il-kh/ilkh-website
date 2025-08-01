@@ -1,23 +1,18 @@
 ---
-title: "ACLEDA Bank Extension 5"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "Chevron Terminal, Sihanoukville, Cambodia"
+category: "Surveying & Geo-Information Systems"
+thumbnail: "/images/projects/chevron-topo-survey/IMG_7534.JPG"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/chevron-topo-survey/IMG_7529.JPG"
+  - image: "/images/projects/chevron-topo-survey/IMG_5275.JPG"
+  - image: "/images/projects/chevron-topo-survey/IMG_5498.JPG"
 isShowcase: false
-dateStart: "2017-03-15"
-dateEnd: "2017-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2023-04-01"
+dateEnd: "2023-12-31"
+summary: "Topographic survey"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+Inros Lackner (Cambodia) Co., Ltd was contracted to provided the Topographic survey services for an adjacent area for the extension of the terminal.
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**Scope:**
+- Field survey

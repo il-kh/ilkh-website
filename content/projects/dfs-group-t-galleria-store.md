@@ -1,23 +1,21 @@
 ---
-title: "ACLEDA Bank Extension 8"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "T Galleria Store, DFS Group, Siem Reap, Cambodia"
+category: "Structural Engineering & Building Assessment"
+thumbnail: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"
+  - image: "/images/projects/dfs-group-t-galleria-store/DSC04127.JPG"
+  - image: "/images/projects/dfs-group-t-galleria-store/DSC04108.JPG"
+  - image: "/images/projects/dfs-group-t-galleria-store/DSC00403_ CPTU.JPG"
 isShowcase: false
-dateStart: "2015-03-15"
-dateEnd: "2015-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2015-03-01"
+dateEnd: "2015-12-31"
+summary: "Survey of duty-free shop"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+In March 2016, DFS Group opened its doors at the first T Galleria store in Cambodia. With 8000 sqm the largest duty-free luxury department store in the country, it offers travellers an integrated retail, hospitality and leisure experience at the Angkor National Museum in Siem Reap. Inros Lackner Cambodia was engaged by DFS Group Limited of Hong Kong for the structural assessment and design of building modifications. The provided structural engineering services included non-destructive concrete testing by ultrasonic instrument, steel bar locator and GPR, carbonation testing of concrete and assessment of foundation piles by PIT. A geotechnical investigation consisting of Cone Penetration Tests (CPTu) were performed. From the results, ultimate pile capacities and skin friction were calculated.
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**Scope:**
+- Structural survey and investigation
+- Geotechnical investigation
+- Structural assessment

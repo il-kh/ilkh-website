@@ -24,7 +24,9 @@
     "next-mdx-remote": "^5.0.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "react-markdown": "^10.1.0",
     "rehype-pretty-code": "^0.14.0",
+    "remark-gfm": "^4.0.1",
     "typescript": "^5.7.3"
   },
   "devDependencies": {

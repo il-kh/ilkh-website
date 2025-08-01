@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import DateMonthYear from '@/components/date-month-year'
-import { CustomMDX } from '@/components/mdx/mdx'
+import { CustomMD } from '@/components/md/md'
 import Separator from '@/components/separator'
 
 export async function generateStaticParams() {
@@ -51,7 +51,7 @@ export default async function SingleProject(
         <header className="relative">
 
           {/* Dark background */}
-          <div className="absolute inset-0 bg-[#002240] pointer-events-none -z-10 mb-36 lg:mb-0 lg:h-[48rem] [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true"></div>
+          <div className="absolute inset-0 bg-[#002240] pointer-events-none -z-10 mb-36 lg:mb-0 lg:h-[48rem] [clip-path:polygon(0_0,_5760px_0,_5760px_70%,_0_70%)]" aria-hidden="true"></div>
 
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 md:pt-40 pb-8">
@@ -68,7 +68,6 @@ export default async function SingleProject(
                     {/* Date meta */}
                     <div className="flex items-center justify-center">
                       <div>
-                        <a className="font-medium text-slate-200 hover:text-slate-100 transition duration-150 ease-in-out" href="#0">{project.metadata.author}</a>
                         <span className="text-slate-600">Implementation period: </span>
                         <span className="text-slate-400">
                           <DateMonthYear dateString={project.metadata.dateStart} />
@@ -102,7 +101,7 @@ export default async function SingleProject(
 
             <div className="mb-8">
               <article className="prose text-lg text-slate-500 max-w-none prose-lg prose-p:leading-normal prose-headings:font-playfair-display prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium prose-strong:font-medium prose-strong:text-slate-900 prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
-                <CustomMDX source={project.content} />
+                <CustomMD source={project.content} />
               </article>
             </div>
 

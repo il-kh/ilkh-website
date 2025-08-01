@@ -1,23 +1,20 @@
 ---
-title: "ACLEDA Bank Extension 3"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "BRED Bank Cambodia, Phnom Penh, Cambodia"
+category: "Structural Engineering & Building Assessment"
+thumbnail: "/images/projects/bred-bank-cambodia/1_bred-bank.jpg"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/bred-bank-cambodia/3_bred-bank.jpg"
+  - image: "/images/projects/bred-bank-cambodia/4_bred-bank.jpg"
+  - image: "/images/projects/bred-bank-cambodia/5_bred-bank.jpg"
 isShowcase: true
-dateStart: "2019-03-15"
-dateEnd: "2019-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2015-01-01"
+dateEnd: "2016-12-31"
+summary: "Renovation and structural strengthening of bank building"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+Renovation project which involves converting existing restaurant building into a bank building. The project started with structural investigation and assessment to structural strengthening design and then finally construction stage. 
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**Scope:**
+- Structural survey and investigation
+- Geotechnical investigation
+- Structural assessment

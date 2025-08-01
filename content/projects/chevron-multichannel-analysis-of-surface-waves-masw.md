@@ -1,23 +1,19 @@
 ---
-title: "ACLEDA Bank Extension 4"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "Geophysical Investigations, Chevron Terminal, Sihanoukville, Cambodia"
+category: "Geotechnical Engineering"
+thumbnail: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/CrossSection.PNG"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
-isShowcase: true
-dateStart: "2018-03-15"
-dateEnd: "2018-08-30"
-summary: "Test Summary Acleda Bank"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/FieldWork.jpg"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/KH2022-026_A02.jpg"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/DispersionCurve.PNG"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/TimeDistance.png"
+isShowcase: false
+dateStart: "2023-04-01"
+dateEnd: "2023-12-31"
+summary: "Multichannel Analysis of Surface Waves (MASW) and Geotechnical Borehole Investigation"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+In the context of a site extension and prior to a geotechnical investigation, a Multichannel Analysis of Surface Waves (MASW) survey was conducted on a surface of about 2.5 ha in the year 2023. MASW is a high-resolution, shallow penetrating geophysical technique which provides images of seismic shear wave velocity below the ground. Measurements were performed on a total length of 3.4 km of transect lines at about 1.600 geophone locations in "active mode" using a 7 kg sledgehammer hitting a metal plate as the seismic source. In conjunction with a limited geotechnical borehole investigation, this methodology permitted a cost and time efficient way to determine the soil and rock stratigraphy of the site, to determine physical and mechanical properties of soil and rock strata, and to determine design soil parameters for foundations, foundation settlement estimates, and construction considerations.
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**Scope:**
+- Field survey

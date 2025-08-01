@@ -12,14 +12,14 @@ export default function ProjectItem({ ...props }) {
       }
       <div className="grow flex flex-col">
         <header>
-          <h3 className="h4 font-playfair-display mb-3">
+          <h3 className="headline headline-h2 mb-3">
             <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href={`/projects/${props.slug}`}>{props.metadata.title}</Link>
           </h3>
         </header>
-        <p className="text-lg text-slate-500 grow">{props.metadata.summary}</p>
+        <p className="subline-medium grow">{props.metadata.summary}</p>
         <footer className="flex items-center mt-4">
           <div>
-            <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.category}</a>
+            <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.category}</a>
             <span className="text-slate-300"> &#40; </span>
             <span className="text-slate-500"><DateYear dateString={props.metadata.publishedAt} /></span>
             <span className="text-slate-300"> &#41;</span>

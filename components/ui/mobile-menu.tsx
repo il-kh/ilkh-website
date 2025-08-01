@@ -91,10 +91,25 @@ export default function MobileMenu() {
               <span className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Projects</span>
               <ul className="pl-4">
                 <li>
-                  <Link href="/projects" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Integrated Building Design</Link>
+                  <Link href="/projects" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>All</Link>
                 </li>
                 <li>
-                  <Link href="/projects" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Infrastructure & Environment</Link>
+                  <Link href="/projects#integrated-building-design" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Integrated Building Design</Link>
+                </li>
+                <li>
+                  <Link href="/projects#infrastructure-environment" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Infrastructure & Environment</Link>
+                </li>
+                <li>
+                  <Link href="/projects#structural-engineering-building-assessment" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Structural Engineering & Building Assessment</Link>
+                </li>
+                <li>
+                  <Link href="/projects#geotechnical-engineering" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Geotechnical Engineering</Link>
+                </li>
+                <li>
+                  <Link href="/projects#project-management-construction-supervision" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Project Management & Construction Supervision</Link>
+                </li>
+                <li>
+                  <Link href="/projects#surveying-geo-information-systems" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Surveying & Geo-Information Systems</Link>
                 </li>
               </ul>
             </li>

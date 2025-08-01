@@ -23,7 +23,7 @@ export default function CompetencyBlocks() {
               {/* Content */}
               <div className="md:min-w-[30rem]" data-aos="fade-left">
                 <h2 className="headline headline-h2 mb-4">
-                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="/wall-of-love//wall-of-love-single">The art and craft of designing a building is collaborative.</Link>
+                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="#">The art and craft of designing a building is collaborative.</Link>
                 </h2>
                 <p className="text-std border-l-2 border-slate-800 pl-4 mb-8">Building requirements are becoming ever more complex, and demand the know-how of experts. Our architects and engineers combine in their daily workflow aesthetic, functionality and economic aspects. They plan and design well-engineered, modern structures and optimize the energy efficiency of buildings. For more than a decade we have rendered architectural and engineering design services for a range of projects including hospitals, schools, office buildings, hotels, commercial buildings and factories. Besides the “greenfield” projects, the rehabilitation and retro-fitting of existing buildings has been important part of our work.  
                   The combination of local expertise and international know-how allows us to develop responsive and cost-effective solutions for our clients.</p>
@@ -57,7 +57,7 @@ export default function CompetencyBlocks() {
               {/* Content */}
               <div className="md:min-w-[30rem]" data-aos="fade-left">
                 <h2 className="headline headline-h2 mb-4">
-                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="/wall-of-love//wall-of-love-single">Infrastructure connects people</Link>
+                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="#">Infrastructure connects people</Link>
                 </h2>
                 <p className="text-std border-l-2 border-slate-800 pl-4 mb-8">Residential and commercial areas must be connected by roads and adequately supplied with water and energy. Wastewater and solid waste must be disposed of in an environmentally sound manner. We offer a wide range of services, from infrastructure development planning to rehabilitation of existing facilities.
                   Our transportation, railway and road experts are responsible for the quality of the transport infrastructure and any required development or extension measures. This includes planning of roads, railway tracks, bridges, tunnels and noise protection walls – the dominant elements of today's transport networks.</p>
@@ -91,7 +91,7 @@ export default function CompetencyBlocks() {
               {/* Content */}
               <div className="md:min-w-[30rem]" data-aos="fade-left">
                 <h2 className="headline headline-h2 mb-4">
-                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="/wall-of-love//wall-of-love-single">Structural integrity matters</Link>
+                  <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href="#">Structural integrity matters</Link>
                 </h2>
                 <p className="text-std border-l-2 border-slate-800 pl-4 mb-8">Already in the early stages of the design process, our structural engineers collaborate closely with architects and other specialists in developing the optimal design for your structure. With the help of FEM software, architectural visions and engineering diligence are transformed into structural designs. 3D models enable the proposed concepts to be visualised long before they become reality.
                   Rehabilitation and retrofitting of existing structures is often the most economic option for our Clients. The remodelling and structural rehabilitation of a building, or civil structure is a challenging and exiting task for our architects and engineers and requires years of collective experience.

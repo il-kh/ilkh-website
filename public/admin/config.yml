@@ -1,8 +1,6 @@
 backend:
-  name: test-repo
-  local_backend: true
-  # name: git-gateway
-  # branch: main  # or "master" if using that
+  name: git-gateway
+  branch: main
 
 media_folder: "public/images/projects/{{slug}}"
 public_folder: "/images/projects/{{slug}}"

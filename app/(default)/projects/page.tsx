@@ -23,8 +23,11 @@ export default function Projects() {
   // Slicing projects for demo purposes
   const featuredProject = allProjects[0]
   const latestProjects = allProjects.slice(1,4)
-  const popularProjects = allProjects.slice(4, 7)
-  const productProjects = allProjects.slice(7, 10)
+  const integrBuildDesignProjects = allProjects.filter(project => project.metadata.category === 'Integrated Building Design')
+  const infraEnviroProjects = allProjects.filter(project => project.metadata.category === 'Infrastructure & Environment')
+  const geotechnicalProjects = allProjects.filter(project => project.metadata.category === 'Geotechnical Engineering')
+  const projectManagementProjects = allProjects.filter(project => project.metadata.category === 'Project Management & Construction Supervision')
+  const surveyingProjects = allProjects.filter(project => project.metadata.category === 'Surveying & Geo-Information Systems')
 
   return (
     <>
@@ -54,16 +57,16 @@ export default function Projects() {
               <div className="md:w-1/2" data-aos="fade-up">
                 <header>
                   <h2 className="h4 md:text-4xl lg:text-5xl font-playfair-display mb-3">
-                    <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href={`/projects/${featuredProject.slug}`}>{featuredProject.metadata.title}</Link>
+                    <Link className="headline headline-h1 hover:underline hover:decoration-blue-100" href={`/projects/${featuredProject.slug}`}>{featuredProject.metadata.title}</Link>
                   </h2>
                 </header>
-                <p className="text-lg text-slate-500 grow">{featuredProject.metadata.summary}</p>
+                <p className="subline-large grow">{featuredProject.metadata.summary}</p>
                 <footer className="flex items-center mt-4">
                   <div>
-                    <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.category}</a>
-                    <span className="text-slate-300"> &#40; </span>
-                    <span className="text-slate-500"><DateYear dateString={featuredProject.metadata.dateStart} /></span>
-                    <span className="text-slate-300"> &#41;</span>
+                    <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.category}</a>
+                    <span className="subline"> &#40; </span>
+                    <span className="subline"><DateYear dateString={featuredProject.metadata.dateStart} /></span>
+                    <span className="subline"> &#41;</span>
                   </div>
                 </footer>
               </div>
@@ -82,7 +85,7 @@ export default function Projects() {
 
             {/* Latest */}
             <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Latest</h2>
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Latest</h2>
 
               {/* Projects container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -93,24 +96,60 @@ export default function Projects() {
             </div>
 
             {/* Integrated Building Design */}
-            <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Integrated Building Design</h2>
+            <div id="integrated-building-design">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Integrated Building Design</h2>
 
               {/* Projects container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {popularProjects.map((post, projectIndex) => (
+                {integrBuildDesignProjects.map((post, projectIndex) => (
                   <ProjectItem key={projectIndex} {...post} />
                 ))}
               </div>
             </div>
 
             {/* Infrastructure & Environment */}
-            <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Infrastructure &amp; Environment</h2>
+            <div id="infrastructure-environment">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Infrastructure &amp; Environment</h2>
 
               {/* Projects container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {productProjects.map((post, projectIndex) => (
+                {infraEnviroProjects.map((post, projectIndex) => (
+                  <ProjectItem key={projectIndex} {...post} />
+                ))}
+              </div>
+            </div>
+
+            {/* Geotechnical Engineering */}
+            <div id="geotechnical-engineering">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Geotechnical Engineering</h2>
+
+              {/* Projects container */}
+              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                {geotechnicalProjects.map((post, projectIndex) => (
+                  <ProjectItem key={projectIndex} {...post} />
+                ))}
+              </div>
+            </div>
+
+            {/* Project Management & Construction Supervision */}
+            <div id="project-management-construction-supervision">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Project Management &amp; Construction Supervision</h2>
+
+              {/* Projects container */}
+              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                {projectManagementProjects.map((post, projectIndex) => (
+                  <ProjectItem key={projectIndex} {...post} />
+                ))}
+              </div>
+            </div>
+
+            {/* Surveying & Geo-Information Systems */}
+            <div id="surveying-geo-information-systems">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">Surveying &amp; Geo-Information Systems</h2>
+
+              {/* Projects container */}
+              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                {surveyingProjects.map((post, projectIndex) => (
                   <ProjectItem key={projectIndex} {...post} />
                 ))}
               </div>

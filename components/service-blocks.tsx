@@ -17,7 +17,7 @@ export default function ServiceBlocks() {
 
             {/* 1st item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="100">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Integrated_building_design.svg" width="164" height="164" />
@@ -31,7 +31,7 @@ export default function ServiceBlocks() {
 
             {/* 2nd item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="100">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Infrastrukturplanung_rgb.svg" width="164" height="164" />
@@ -45,7 +45,7 @@ export default function ServiceBlocks() {
 
             {/* 3rd item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="200">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Tragwerksplanung_rgb.svg" width="164" height="164" />
@@ -59,7 +59,7 @@ export default function ServiceBlocks() {
 
             {/* 4th item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="300">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Grundbau_Geotechnik_rgb.svg" width="164" height="164" />
@@ -73,7 +73,7 @@ export default function ServiceBlocks() {
 
             {/* 5th item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="400">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Projektsteuerung_Baumanagement_rgb.svg" width="164" height="164" />
@@ -87,7 +87,7 @@ export default function ServiceBlocks() {
 
             {/* 6th item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]" data-aos-delay="500">
-              <a href="#" className="group block focus:outline-none">
+              <a href="/competencies" className="group block focus:outline-none">
                 <div className="relative flex flex-col items-center transition duration-300 ease-in-out group-hover:bg-[#002240] group-hover:text-white" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                   <svg viewBox="0 0 164 164" className="w-36 h-36 overflow-hidden group-hover:invert">
                     <image href="/icons/Geoinformationssysteme_Vermessung_rgb.svg" width="164" height="164" />

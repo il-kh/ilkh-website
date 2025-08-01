@@ -1,23 +1,20 @@
 ---
-title: "ACLEDA Bank Extension 11"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "National Water Resource Data Management Center, Phnom Penh, Cambodia"
+category: "Integrated Building Design"
+thumbnail: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-P01.jpg"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-BV03.jpg"
+  - image: "/images/projects/national-water-resource-data-management-center/IMG_9146.JPG"
+  - image: "/images/projects/national-water-resource-data-management-center/IMG_9185.JPG"
 isShowcase: false
-dateStart: "2012-03-15"
-dateEnd: "2012-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2023-01-01"
+dateEnd: ""
+summary: "Establishment of a national water resources data management center and a national water resources information system"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+The NWRMDC will be an integrated center that provides direct services and support for the effective allocation and wise management of the country’s water resources used by the diverse water-related sectors, which includes agriculture, water supply, energy, rural developments, health, disaster risk management with respect to floods and droughts, and the environment.  
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**Scope:**
+Structural engineering for following project stages:
+- Concept design;
+- Schematic Design;

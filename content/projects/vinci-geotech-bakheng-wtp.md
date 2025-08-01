@@ -1,23 +1,17 @@
 ---
-title: "ACLEDA Bank Extension 12"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "Bakheng Water Treatment Plant, Phnom Penh, Cambodia"
+category: "Geotechnical Engineering"
+thumbnail: "/images/projects/vinci-geotech-bakheng-wtp/05_photo_2024-08-19_13-51-48.jpg"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/vinci-geotech-bakheng-wtp/01_photo_2024-08-19_11-01-59.jpg"
+  - image: "/images/projects/vinci-geotech-bakheng-wtp/02_IMG20240509101927.jpg"
+  - image: "/images/projects/vinci-geotech-bakheng-wtp/04_photo_2024-08-19_13-51-45.jpg"
 isShowcase: false
-dateStart: "2010-03-15"
-dateEnd: "2010-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2019-01-01"
+dateEnd: "2023-12-31"
+summary: "Geotechnical Investigations (CPTu and Borehole explorations)"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
-
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+On behalf of the Phnom Penh Water Supply Authority (PPWSA), Vinci Construction Grands Projets S.A.S has requested Inros Lackner (Cambodia) to carry out geotechnical investigations for Phase 1, 2 & 3 of the Bakheng Water Treatment Plant Project. The investigations were carried out in two parts during 2019 to 2023.
+- Part I: Ground investigations by Cone Penetration Tests (CPTu)
+- Part II: Ground investigations by borehole explorations and laboratory testing.

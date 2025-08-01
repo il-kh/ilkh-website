@@ -1,23 +1,16 @@
 ---
-title: "ACLEDA Bank Extension 8"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "Gerneral Department of Taxation, Phnom Penh, Cambodia"
+category: "Structural Engineering & Building Assessment"
+thumbnail: "/images/projects/gerneral-department-of-taxation-pile-foundation-testing/2-PDA.jpg"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/gerneral-department-of-taxation-pile-foundation-testing/1-Static.jpg"
+  - image: "/images/projects/gerneral-department-of-taxation-pile-foundation-testing/2-PDA.jpg"
+  - image: "/images/projects/gerneral-department-of-taxation-pile-foundation-testing/3-PIT.jpg"
+  - image: "/images/projects/gerneral-department-of-taxation-pile-foundation-testing/4-CSL.jpg"
 isShowcase: false
-dateStart: "2014-03-15"
-dateEnd: "2014-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2020-01-01"
+dateEnd: "2020-12-31"
+summary: "Pile Foundation Testing"
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
-
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+Inros Lackner (Cambodia) was engaged by the General Department of Taxation to carry out Pile Foundation Testing by Static Load Test, PDA, PIT & CSL Tests.

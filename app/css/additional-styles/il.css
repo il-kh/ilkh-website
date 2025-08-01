@@ -25,6 +25,10 @@
   font-size: 22pt;
 }
 
+.headline-h1{
+  font-size: 30pt;
+}
+
 .headline-h1-light{
   color: #b2b2b2;
   font-size: 32pt;
@@ -35,6 +39,20 @@
   font-weight: normal;
   font-size: 14pt;
   color: #0d0d0d;
+}
+
+.subline-large {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+  color: #858585;
+}
+
+.subline-medium {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #858585;
 }
 
 .subline-h2-light {

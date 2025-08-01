@@ -34,10 +34,25 @@ export default function Header({ mode = 'dark' }: {
               <Dropdown title="Projects">
                 {/* 2nd level: hover */}
                 <li>
-                  <Link href="/projects" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Integrated Building Design</Link>
+                  <Link href="/projects" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">All</Link>
                 </li>
                 <li>
-                  <Link href="/projects" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Infrastructure & Environment</Link>
+                  <Link href="/projects#integrated-building-design" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Integrated Building Design</Link>
+                </li>
+                <li>
+                  <Link href="/projects#infrastructure-environment" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Infrastructure & Environment</Link>
+                </li>
+                <li>
+                  <Link href="/projects#structural-engineering-building-assessment" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Structural Engineering & Building Assessment</Link>
+                </li>
+                <li>
+                  <Link href="/projects#geotechnical-engineering" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Geotechnical Engineering</Link>
+                </li>
+                <li>
+                  <Link href="/projects#project-management-construction-supervision" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Project Management & Construction Supervision</Link>
+                </li>
+                <li>
+                  <Link href="/projects#surveying-geo-information-systems" className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight">Surveying & Geo-Information Systems</Link>
                 </li>
               </Dropdown>
             </ul>

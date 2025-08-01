@@ -1,23 +1,18 @@
 ---
-title: "ACLEDA Bank Extension 6"
-category: "structural-engineering-and-building-assessment"
-thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
+title: "CMIC Cement Plant in Kampot Province, Cambodia"
+category: "Infrastructure & Environment"
+thumbnail: "/images/projects/cmic-water-management-sudy-flood-control/2_CMIC.png"
 gallery:
-  - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
-  - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
+  - image: "/images/projects/cmic-water-management-sudy-flood-control/1_CMIC.JPG"
+  - image: "/images/projects/cmic-water-management-sudy-flood-control/2_CMIC.png"
+  - image: "/images/projects/cmic-water-management-sudy-flood-control/3_CMIC.png"
 isShowcase: false
-dateStart: "2016-03-15"
-dateEnd: "2016-08-30"
-summary: "Test Summary Acleda Bank"
+dateStart: "2016-01-01"
+dateEnd: "2016-12-31"
+summary: "Water Management Study and Design of Flood Control Structures "
 ---
 
-The ACLEDA Bank Extension project involved a detailed geotechnical investigation and foundation design review for the proposed multi-story office building. The work included soil sampling, laboratory testing, and engineering analysis to optimize the structural performance of the foundation system.
+In 2016, Inros Lackner Cambodia was contracted by Chip Mong Insee Cement Corporation to conduct a Water Management Study with regards to the construction of a cement plant. The study was composed of a desk study, a field survey including an aerial photogrammetric and hydraulic survey, field reconnaissance as well as the development of a water management concept. The water management concept included the establishment of water demand for plant processes and other uses. The demand was compared to water supply and recommendations were made regarding water monitoring and environmental management.
 
-**Key Activities:**
-- Borehole drilling to a depth of 30 meters
-- Standard penetration testing (SPT)
-- Groundwater table monitoring
-- Foundation recommendations for high-rise structures
-
-This project exemplifies our ability to deliver fast, accurate geotechnical data and clear reporting under tight timelines and urban constraints.
+**KScope:**
+- Desk study, field survey, concept design
