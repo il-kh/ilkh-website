@@ -37,12 +37,12 @@ export default function ProjectShowcase() {
                     />
                   </div>
                 </Link>
-                <h3 className="h4 font-playfair-display mb-2">
+                <h3 className="headline headline-h2 mb-2">
                   <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href={`/projects/${project.slug}`}>
                     {project.metadata.title}
                   </Link>
                 </h3>
-                <p className="text-lg text-slate-500">{project.metadata.summary}</p>
+                <p className="subline-large">{project.metadata.summary}</p>
               </article>
             ))}
           </div>

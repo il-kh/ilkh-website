@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import IlkhHome from '@/components/ilkh-home'
+import IlkhHero from '@/components/ilkh-hero01'
 import ServiceBlocks from '@/components/service-blocks'
 import IlkhAboutShort from '@/components/ilkh-about-short'
 import ProjectShowcase from '@/components/project-showcase'
@@ -12,7 +12,7 @@ import Cta from '@/components/cta'
 export default function Home() {
   return (
     <>
-      <IlkhHome />
+      <IlkhHero />
       <ServiceBlocks />
       <IlkhAboutShort />
       <ProjectShowcase />

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ilkh.netlify.app/sitemap.xml

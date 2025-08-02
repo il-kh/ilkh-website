@@ -87,14 +87,26 @@ export default function Footer() {
           {/* Social links */}
           <ul className="flex space-x-6 mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
-              <a className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out" href="#0" aria-label="Twitter">
+              <a
+                className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out"
+                href="https://www.linkedin.com/company/inros-lackner-cambodia"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m6.329 1 4.369 5.594L15.75 1h3.068L12.12 8.414 20 18.5h-6.172l-4.833-6.116L3.464 18.5H.395l7.169-7.928L0 1h6.329Zm-.925 1.684H3.583l11.093 14.04h1.7L5.404 2.684Z" />
+                  <path d="M17.5 0h-15A2.5 2.5 0 0 0 0 2.5v15A2.5 2.5 0 0 0 2.5 20h15a2.5 2.5 0 0 0 2.5-2.5v-15A2.5 2.5 0 0 0 17.5 0zm-11.25 17.5h-2.5v-8.75h2.5v8.75zm-1.25-10a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm12.5 10h-2.5v-4.375c0-1.042-.021-2.375-1.438-2.375-1.438 0-1.562 1.125-1.562 2.292v4.458h-2.5v-8.75h2.396v1.196h.034c.333-.625 1.146-1.292 2.354-1.292 2.521 0 2.988 1.667 2.988 3.833v5.013z"/>
                 </svg>
               </a>
             </li>
             <li>
-              <a className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out" href="#0" aria-label="Facebook">
+              <a
+                className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out"
+                href="https://www.facebook.com/inroslacknercambodia/"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 10.025C20 4.491 15.52 0 10 0S0 4.491 0 10.025c0 4.852 3.44 8.892 8 9.825v-6.817H6v-3.008h2V7.52a3.508 3.508 0 0 1 3.5-3.509H14v3.008h-2c-.55 0-1 .45-1 1.002v2.005h3v3.008h-3V20c5.05-.501 9-4.772 9-9.975Z" />
                 </svg>

@@ -19,7 +19,7 @@ export default function IlkhAboutShort() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <p className="subline mb-4">Inros Lackner Cambodia</p>
+            <p className="subline-large mb-4">Inros Lackner Cambodia</p>
             <h2 className="headline headline-h2 mb-4">Engineering for the Future of Cambodia since 2002</h2>
             <p className="text-std">
               INROS LACKNER (CAMBODIA) CO LTD (ILKH) is an affiliated 

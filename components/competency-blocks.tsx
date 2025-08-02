@@ -31,7 +31,7 @@ export default function CompetencyBlocks() {
                   <svg className="fill-blue-600" width="20" height="16" viewBox="0 0 20 16">
                     <path d="M2.76 16c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.613-2.272-1.748-2.272s-2.27.726-3.283 1.64C3.16 6.439 5.613 3.346 9.571.885L9.233 0C3.466 2.903 0 7.732 0 12.213 0 14.517.828 16 2.76 16Zm10.43 0c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.614-2.272-1.749-2.272-1.135 0-2.27.726-3.282 1.64.276-2.934 2.73-6.027 6.687-8.488L19.663 0c-5.767 2.903-9.234 7.732-9.234 12.213 0 2.304.829 3.787 2.761 3.787Z" />
                   </svg>
-                  <blockquote className="font-playfair-display text-slate-500 italic">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur e xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</blockquote>
+                  <blockquote className="font-playfair-display text-slate-500 italic">In theory, theory and practice are the same. In practice, they are not. (A. Einstein)</blockquote>
                 </div>
               </div>
 
@@ -61,12 +61,6 @@ export default function CompetencyBlocks() {
                 </h2>
                 <p className="text-std border-l-2 border-slate-800 pl-4 mb-8">Residential and commercial areas must be connected by roads and adequately supplied with water and energy. Wastewater and solid waste must be disposed of in an environmentally sound manner. We offer a wide range of services, from infrastructure development planning to rehabilitation of existing facilities.
                   Our transportation, railway and road experts are responsible for the quality of the transport infrastructure and any required development or extension measures. This includes planning of roads, railway tracks, bridges, tunnels and noise protection walls – the dominant elements of today's transport networks.</p>
-                <div className="space-y-3">
-                  <svg className="fill-blue-600" width="20" height="16" viewBox="0 0 20 16">
-                    <path d="M2.76 16c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.613-2.272-1.748-2.272s-2.27.726-3.283 1.64C3.16 6.439 5.613 3.346 9.571.885L9.233 0C3.466 2.903 0 7.732 0 12.213 0 14.517.828 16 2.76 16Zm10.43 0c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.614-2.272-1.749-2.272-1.135 0-2.27.726-3.282 1.64.276-2.934 2.73-6.027 6.687-8.488L19.663 0c-5.767 2.903-9.234 7.732-9.234 12.213 0 2.304.829 3.787 2.761 3.787Z" />
-                  </svg>
-                  <blockquote className="font-playfair-display text-slate-500 italic">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur e xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</blockquote>
-                </div>
               </div>
 
               {/* Image */}
@@ -96,12 +90,6 @@ export default function CompetencyBlocks() {
                 <p className="text-std border-l-2 border-slate-800 pl-4 mb-8">Already in the early stages of the design process, our structural engineers collaborate closely with architects and other specialists in developing the optimal design for your structure. With the help of FEM software, architectural visions and engineering diligence are transformed into structural designs. 3D models enable the proposed concepts to be visualised long before they become reality.
                   Rehabilitation and retrofitting of existing structures is often the most economic option for our Clients. The remodelling and structural rehabilitation of a building, or civil structure is a challenging and exiting task for our architects and engineers and requires years of collective experience.
                   We have carried out structural building surveys and assessments for private sector clients and publicly financed organisations in Cambodia for more than a decade. The structures surveyed range from the temples of Angkor to colonial buildings to contemporary reinforced concrete and steel structures. Our engineers have a wide range of investigation equipment at their disposal and years of experience in applying it. </p>
-                <div className="space-y-3">
-                  <svg className="fill-blue-600" width="20" height="16" viewBox="0 0 20 16">
-                    <path d="M2.76 16c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.613-2.272-1.748-2.272s-2.27.726-3.283 1.64C3.16 6.439 5.613 3.346 9.571.885L9.233 0C3.466 2.903 0 7.732 0 12.213 0 14.517.828 16 2.76 16Zm10.43 0c2.577 0 5.154-3.219 5.154-5.996 0-1.357-.614-2.272-1.749-2.272-1.135 0-2.27.726-3.282 1.64.276-2.934 2.73-6.027 6.687-8.488L19.663 0c-5.767 2.903-9.234 7.732-9.234 12.213 0 2.304.829 3.787 2.761 3.787Z" />
-                  </svg>
-                  <blockquote className="font-playfair-display text-slate-500 italic">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur e xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</blockquote>
-                </div>
               </div>
 
               {/* Image */}
