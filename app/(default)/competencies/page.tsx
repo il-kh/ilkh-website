@@ -3,13 +3,13 @@ export const metadata = {
   description: 'Page description',
 }
 
-import CompetenciesIntro from '@/components/competencies-intro'
+import CompetenciesHero from '@/components/competency-hero'
 import CompetencyBlocks from '@/components/competency-blocks'
 
 export default function Competencies() {
   return (
     <>
-      <CompetenciesIntro />
+      <CompetenciesHero />
       <CompetencyBlocks />
     </>
   )

@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import ProjectsIntro from '@/components/projects-intro'
+import ProjectsHero from '@/components/projects-hero'
 import Tags from '@/components/project-tags'
 
 export default function Projects() {
@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <>
-      <ProjectsIntro />
+      <ProjectsHero />
       <Tags />
 
       {/* Featured project */}
