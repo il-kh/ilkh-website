@@ -20,9 +20,25 @@ export default function ProjectItem({ ...props }) {
         <footer className="flex items-center mt-4">
           <div>
             <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.category}</a>
-            <span className="text-slate-300"> &#40; </span>
-            <span className="text-slate-500"><DateYear dateString={props.metadata.publishedAt} /></span>
-            <span className="text-slate-300"> &#41;</span>
+            <span className="subline"> &#40; </span>
+            <span className="subline">
+              <DateYear dateString={props.metadata.dateStart} />
+            </span>
+            {props.metadata.dateEnd && new Date(props.metadata.dateEnd).getFullYear() > new Date(props.metadata.dateStart).getFullYear() ? (
+              <>
+                <span className="subline"> to </span>
+                <span className="subline">
+                  <DateYear dateString={props.metadata.dateEnd} />
+                </span>
+              </>
+            ) : (
+              !props.metadata.dateEnd ? (
+                <span className="subline">, ongoing</span>
+              ) : (
+                <span className="subline"></span>
+              )
+            )}
+            <span className="subline"> &#41;</span>
           </div>
         </footer>
       </div>

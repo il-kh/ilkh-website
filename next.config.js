@@ -4,6 +4,11 @@ const withMDX = require("@next/mdx")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+  turbopack: {
+    // Add any Turbopack-specific options here
+  },
+
   // Still support MDX for future use, but .md content works independently
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
 

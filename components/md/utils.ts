@@ -29,15 +29,6 @@ function readMDFile(filePath: string): Project {
   const rawContent = fs.readFileSync(filePath, "utf-8");
   const { data: metadata, content } = matter(rawContent);
 
-  // If gallery is a string, try to parse it as JSON or YAML
-  if (typeof metadata.gallery === "string") {
-    try {
-      metadata.gallery = JSON.parse(metadata.gallery);
-    } catch {
-      // fallback: leave as string
-    }
-  }
-
   const slug = path.basename(filePath, path.extname(filePath));
   return {
     metadata: metadata as ProjectMetadata,

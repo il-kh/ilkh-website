@@ -32,17 +32,13 @@ collections:
           widget: "image",
           required: true,
         }
-      - {
-          name: "gallery",
-          label: "Gallery Images",
-          widget: "list",
-          field:
-            {
-              label: "Image",
-              name: "image",
-              widget: "image"
-            }
-        }
+      - name: "gallery"
+        label: "Gallery Images"
+        widget: "list"
+        fields:
+          - name: "image"
+            label: "Image"
+            widget: "image"
       - { name: "isShowcase", label: "Showcase Project?", widget: "boolean", default: false }
       - { name: "dateStart", label: "Start Date", widget: "date", required: true }
       - { name: "dateEnd", label: "End Date", widget: "date", required: false }

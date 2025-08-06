@@ -65,7 +65,23 @@ export default function Projects() {
                   <div>
                     <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.category}</a>
                     <span className="subline"> &#40; </span>
-                    <span className="subline"><DateYear dateString={featuredProject.metadata.dateStart} /></span>
+                    <span className="subline">
+                      <DateYear dateString={featuredProject.metadata.dateStart} />
+                    </span>
+                    {featuredProject.metadata.dateEnd && new Date(featuredProject.metadata.dateEnd).getFullYear() > new Date(featuredProject.metadata.dateStart).getFullYear() ? (
+                      <>
+                        <span className="subline"> to </span>
+                        <span className="subline">
+                          <DateYear dateString={featuredProject.metadata.dateEnd} />
+                        </span>
+                      </>
+                    ) : (
+                      !featuredProject.metadata.dateEnd ? (
+                        <span className="subline">, ongoing</span>
+                      ) : (
+                        <span className="subline"></span>
+                      )
+                    )}
                     <span className="subline"> &#41;</span>
                   </div>
                 </footer>

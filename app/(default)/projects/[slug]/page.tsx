@@ -3,7 +3,7 @@ import { getProjects } from '@/components/md/utils'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import DateMonthYear from '@/components/date-month-year'
+import DateYear from '@/components/date-year'
 import { CustomMD } from '@/components/md/md'
 import Separator from '@/components/separator'
 
@@ -70,14 +70,22 @@ export default async function SingleProject(
                       <div>
                         <span className="text-slate-600">Implementation period: </span>
                         <span className="text-slate-400">
-                          <DateMonthYear dateString={project.metadata.dateStart} />
+                          <DateYear dateString={project.metadata.dateStart} />
                         </span>
-                        <span className="text-slate-600"> to </span>
-                        <span className="text-slate-400">
-                          {project.metadata.dateEnd
-                            ? <DateMonthYear dateString={project.metadata.dateEnd} />
-                            : "ongoing"}
-                        </span>
+                        {project.metadata.dateEnd && new Date(project.metadata.dateEnd).getFullYear() > new Date(project.metadata.dateStart).getFullYear() ? (
+                          <>
+                            <span className="text-slate-600"> to </span>
+                            <span className="text-slate-400">
+                              <DateYear dateString={project.metadata.dateEnd} />
+                            </span>
+                          </>
+                          ) : (
+                            !project.metadata.dateEnd ? (
+                              <span className="text-slate-400">, ongoing</span>
+                            ) : (
+                              <span className="text-slate-400"></span>
+                            )
+                          )}
                       </div>
                     </div>
                   </div>
