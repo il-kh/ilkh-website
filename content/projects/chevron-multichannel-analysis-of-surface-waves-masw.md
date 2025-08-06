@@ -1,12 +1,12 @@
 ---
 title: "Geophysical Investigations, Chevron Terminal, Sihanoukville, Cambodia"
 category: "Geotechnical Engineering"
-thumbnail: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/CrossSection.PNG"
+thumbnail: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/CrossSection.jpg"
 gallery:
   - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/FieldWork.jpg"
   - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/KH2022-026_A02.jpg"
-  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/DispersionCurve.PNG"
-  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/TimeDistance.png"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/DispersionCurve.jpg"
+  - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/TimeDistance.jpg"
 isShowcase: false
 dateStart: "2023-04-01"
 dateEnd: "2023-12-31"
