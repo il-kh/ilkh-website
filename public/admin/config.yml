@@ -59,8 +59,8 @@ collections:
             label: "Image"
             widget: "image"
       - { name: "isShowcase", label: "Showcase Project?", widget: "boolean", default: false }
-      - { name: "dateStart", label: "Start Date", widget: "date", required: true }
-      - { name: "dateEnd", label: "End Date", widget: "date", required: false }
+      - { name: "dateStart", label: "Start Date", widget: "datetime", required: true }
+      - { name: "dateEnd", label: "End Date", widget: "datetime", required: false }
       - { name: "summary", label: "Summary", widget: "string", required: true }
       - { name: "body", label: "Project Description", widget: "markdown", required: true }
 
