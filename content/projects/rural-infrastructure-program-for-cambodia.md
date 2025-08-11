@@ -1,6 +1,6 @@
 ---
 title: "Rural Infrastructure Development Programme for Cambodia"
-category: "Infrastructure & Environment"
+competency: "Infrastructure & Environment"
 thumbnail: "/images/projects/rural-infrastructure-program-for-cambodia/Picture11.jpg"
 gallery:
   - image: "/images/projects/rural-infrastructure-program-for-cambodia/Picture9.jpg"

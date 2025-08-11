@@ -1,6 +1,6 @@
 ---
 title: "T Galleria Store, DFS Group, Siem Reap, Cambodia"
-category: "Structural Engineering & Building Assessment"
+competency: "Structural Engineering & Building Assessment"
 thumbnail: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"
 gallery:
   - image: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"

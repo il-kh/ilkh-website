@@ -1,6 +1,6 @@
 ---
 title: "National Water Resource Data Management Center, Phnom Penh, Cambodia"
-category: "Integrated Building Design"
+competency: "Integrated Building Design"
 thumbnail: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-P01.jpg"
 gallery:
   - image: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-BV03.jpg"

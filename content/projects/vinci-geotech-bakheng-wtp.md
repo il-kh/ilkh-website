@@ -1,6 +1,6 @@
 ---
 title: "Bakheng Water Treatment Plant, Phnom Penh, Cambodia"
-category: "Geotechnical Engineering"
+competency: "Geotechnical Engineering"
 thumbnail: "/images/projects/vinci-geotech-bakheng-wtp/05_photo_2024-08-19_13-51-48.jpg"
 gallery:
   - image: "/images/projects/vinci-geotech-bakheng-wtp/01_photo_2024-08-19_11-01-59.jpg"

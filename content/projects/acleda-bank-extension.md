@@ -1,6 +1,6 @@
 ---
 title: "ACLEDA Bank Extension, Phnom Penh, Cambodia"
-category: "Integrated Building Design"
+competency: "Integrated Building Design"
 thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
 gallery:
   - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"

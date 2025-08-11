@@ -10,7 +10,7 @@ This guide explains how to update and manage projects on our website using the v
 
 - Add new projects
 - Update existing project info or images
-- Organize projects into categories
+- Organize projects into competencies
 - Choose which projects are featured on the **Showcase** page
 
 ---
@@ -46,7 +46,7 @@ Once logged in:
 | Field               | What to Do                                                                 |
 |---------------------|----------------------------------------------------------------------------|
 | **Title**           | Name of the project                                                        |
-| **Category**        | Choose from dropdown (e.g. Surveys, Geotechnical Engineering, etc.)        |
+| **Competency**        | Choose from dropdown (e.g. Surveys, Geotechnical Engineering, etc.)        |
 | **Main Image**      | Upload the main image (used for the thumbnail and project page)            |
 | **Gallery Images**  | Upload as many additional images as you want (for the project page)        |
 | **Showcase Project?** | Turn this ON if you want this project to appear on the special Showcase page |
@@ -65,16 +65,16 @@ Once logged in:
 
 ---
 
-### Categories
+### Competencies
 
-Each project must belong to a **category**. This helps us display projects by type.
+Each project must belong to a **competency**. This helps us display projects by type.
 
 Examples:
 - **Surveys**
 - **Geotechnical Engineering**
 - **Environmental Studies**
 
-Let us know if a category is missing — we can add it for you.
+Let us know if a competency is missing — we can add it for you.
 
 ---
 

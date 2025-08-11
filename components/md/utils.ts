@@ -4,7 +4,7 @@ import matter from "gray-matter";
 
 export type ProjectMetadata = {
   title: string;
-  category?: string;
+  competency?: string;
   thumbnail: string;
   gallery?: { image: string }[];
   isShowcase?: boolean;

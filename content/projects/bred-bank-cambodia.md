@@ -1,6 +1,6 @@
 ---
 title: "BRED Bank Cambodia, Phnom Penh, Cambodia"
-category: "Structural Engineering & Building Assessment"
+competency: "Structural Engineering & Building Assessment"
 thumbnail: "/images/projects/bred-bank-cambodia/1_bred-bank.jpg"
 gallery:
   - image: "/images/projects/bred-bank-cambodia/3_bred-bank.jpg"

@@ -19,7 +19,7 @@ export default function ProjectItem({ ...props }) {
         <p className="subline-medium grow">{props.metadata.summary}</p>
         <footer className="flex items-center mt-4">
           <div>
-            <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.category}</a>
+            <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.competency}</a>
             <span className="subline"> &#40; </span>
             <span className="subline">
               <DateYear dateString={props.metadata.dateStart} />

@@ -23,11 +23,11 @@ export default function Projects() {
   // Slicing projects for demo purposes
   const featuredProject = allProjects[0]
   const latestProjects = allProjects.slice(1,4)
-  const integrBuildDesignProjects = allProjects.filter(project => project.metadata.category === 'Integrated Building Design')
-  const infraEnviroProjects = allProjects.filter(project => project.metadata.category === 'Infrastructure & Environment')
-  const geotechnicalProjects = allProjects.filter(project => project.metadata.category === 'Geotechnical Engineering')
-  const projectManagementProjects = allProjects.filter(project => project.metadata.category === 'Project Management & Construction Supervision')
-  const surveyingProjects = allProjects.filter(project => project.metadata.category === 'Surveying & Geo-Information Systems')
+  const integrBuildDesignProjects = allProjects.filter(project => project.metadata.competency === 'Integrated Building Design')
+  const infraEnviroProjects = allProjects.filter(project => project.metadata.competency === 'Infrastructure & Environment')
+  const geotechnicalProjects = allProjects.filter(project => project.metadata.competency === 'Geotechnical Engineering')
+  const projectManagementProjects = allProjects.filter(project => project.metadata.competency === 'Project Management & Construction Supervision')
+  const surveyingProjects = allProjects.filter(project => project.metadata.competency === 'Surveying & Geo-Information Systems')
 
   return (
     <>
@@ -63,7 +63,7 @@ export default function Projects() {
                 <p className="subline-large grow">{featuredProject.metadata.summary}</p>
                 <footer className="flex items-center mt-4">
                   <div>
-                    <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.category}</a>
+                    <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.competency}</a>
                     <span className="subline"> &#40; </span>
                     <span className="subline">
                       <DateYear dateString={featuredProject.metadata.dateStart} />

@@ -1,6 +1,6 @@
 ---
 title: "Techo International Airport, Kandal Province, Cambodia"
-category: "Surveying & Geo-Information Systems"
+competency: "Surveying & Geo-Information Systems"
 thumbnail: "/images/projects/lbl-techo-international-airport-3d-laser-scan/1.jpg"
 gallery:
   - image: "/images/projects/lbl-techo-international-airport-3d-laser-scan/05_NorthwestPier_Raw.jpg"

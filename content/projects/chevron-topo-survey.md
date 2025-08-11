@@ -1,6 +1,6 @@
 ---
 title: "Chevron Terminal, Sihanoukville, Cambodia"
-category: "Surveying & Geo-Information Systems"
+competency: "Surveying & Geo-Information Systems"
 thumbnail: "/images/projects/chevron-topo-survey/IMG_7534.JPG"
 gallery:
   - image: "/images/projects/chevron-topo-survey/IMG_7529.JPG"

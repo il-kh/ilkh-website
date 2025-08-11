@@ -1,6 +1,6 @@
 ---
 title: "CMIC Cement Plant in Kampot Province, Cambodia"
-category: "Infrastructure & Environment"
+competency: "Infrastructure & Environment"
 thumbnail: "/images/projects/cmic-water-management-sudy-flood-control/2_CMIC.jpg"
 gallery:
   - image: "/images/projects/cmic-water-management-sudy-flood-control/1_CMIC.jpg"

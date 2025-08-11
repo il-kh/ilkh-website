@@ -21,8 +21,43 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Add site links in DecapCMS (optional)
 site_url: https://inros-lackner.com.kh
 
-media_folder: "public/images/projects/{{slug}}"
-public_folder: "/images/projects/{{slug}}"
+collections:
+  - name: "competencies"
+    label: "Competencies"
+    folder: "content/competencies"
+    create: true
+    slug: "{{slug}}"
+    media_folder: "public/images/competencies/{{slug}}"
+    public_folder: "/images/competencies/{{slug}}"
+    fields:
+      - { name: "title", label: "Competency Name", widget: "string", required: true }
+      - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
+      - { name: "subline", label: "Competency Subline", widget: "string", required: true }
+      - { name: "icon", label: "Icon", widget: "image", required: true}
+      - { name: "image", label: "Image", widget: "image", required: true}
+      - { name: "body", label: "Competency Description", widget: "markdown", required: true }
+
+collections:
+  - name: "service-clusters"
+    label: "Service Clusters"
+    widget: "list"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "Cluster Name", widget: "string", required: true }
+      - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
+      - { name: "icon", label: "Icon", widget: "image", required: false }
+      - { name: "image", label: "Image", widget: "image", required: true }
+      - { name: "body", label: "Service Cluster Description", widget: "markdown", required: true }
+
+collections:
+  - name: "services"
+    label: "Services"
+    widget: "list"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "Service Name", widget: "string", required: true }
+      - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
+      - { name: "body", label: "Service Description", widget: "markdown", required: false }
 
 collections:
   - name: "projects"
@@ -30,21 +65,18 @@ collections:
     folder: "content/projects"
     create: true
     slug: "{{slug}}"
+    media_folder: "public/images/projects/{{slug}}"
+    public_folder: "/images/projects/{{slug}}"
     fields:
       - { name: "title", label: "Project Title", widget: "string", required: true }
-      - {
-          name: "category",
-          label: "Category",
-          widget: "select",
-          options: [
-            { label: "Integrated Building Design", value: "integrated-building-design" },
-            { label: "Infrastructure & Environment", value: "infrastructure-and-environment" },
-            { label: "Structural Engineering & Building Assessment", value: "structural-engineering-and-building-assessment" },
-            { label: "Geotechnical Engineering", value: "geotechnical-engineering" },
-            { label: "Project Management & Construction Supervision", value: "project-management-and-construction-supervision" },
-            { label: "Surveying & Geo-Information Systems", value: "surveying-and-geo-information-systems" }
-          ]
-        }
+      - name: "competency"
+        label: "Competency"
+        widget: "relation"
+        collection: "competencies"
+        search_fields: ["title"]
+        value_field: "value"
+        display_fields: ["title"]
+        required: true
       - {
           name: "thumbnail",
           label: "Thumbnail Image",
