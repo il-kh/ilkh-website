@@ -3,8 +3,15 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Link from 'next/link'
+import type { MarkdownItem, CompetencyMetadata, ServiceClusterMetadata } from '@/components/md/utils';
 
-export default function MobileMenu() {
+export default function MobileMenu({
+  allCompetencies,
+  allServiceClusters
+}: {
+  allCompetencies: MarkdownItem<CompetencyMetadata>[];
+  allServiceClusters: MarkdownItem<ServiceClusterMetadata>[];
+}) {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
 
   const trigger = useRef<HTMLButtonElement>(null)
@@ -81,39 +88,55 @@ export default function MobileMenu() {
             <li>
               <Link href="/about" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Company</Link>
             </li>
-            <li>
+            <li className="py-2 my-2 border-t border-gray-200">
               <Link href="/competencies" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Competencies</Link>
-            </li>
-            <li>
-              <Link href="#" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Services</Link>
-            </li>
-            <li className="py-2 my-2 border-t border-b border-gray-200">
-              <span className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Projects</span>
               <ul className="pl-4">
-                <li>
-                  <Link href="/projects" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>All</Link>
-                </li>
-                <li>
-                  <Link href="/projects#integrated-building-design" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Integrated Building Design</Link>
-                </li>
-                <li>
-                  <Link href="/projects#infrastructure-environment" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Infrastructure & Environment</Link>
-                </li>
-                <li>
-                  <Link href="/projects#structural-engineering-building-assessment" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Structural Engineering & Building Assessment</Link>
-                </li>
-                <li>
-                  <Link href="/projects#geotechnical-engineering" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Geotechnical Engineering</Link>
-                </li>
-                <li>
-                  <Link href="/projects#project-management-construction-supervision" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Project Management & Construction Supervision</Link>
-                </li>
-                <li>
-                  <Link href="/projects#surveying-geo-information-systems" className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Surveying & Geo-Information Systems</Link>
-                </li>
+                {allCompetencies.map((competency) => (
+                  <li key={competency.slug}>
+                    <Link
+                      href={`/competencies/${competency.slug}`}
+                      className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      {competency.metadata.title}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </li>
-            <li>
+            <li className="py-2 my-2 border-t border-gray-200">
+              <Link href="/services" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Services</Link>
+              <ul className="pl-4">
+                {allServiceClusters.map((serviceCluster) => (
+                  <li key={serviceCluster.slug}>
+                    <Link
+                      href={`/services/${serviceCluster.slug}`}
+                      className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      {serviceCluster.metadata.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+            <li className="py-2 my-2 border-t border-gray-200">
+              <Link href="/projects" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Projects</Link>
+              <ul className="pl-4">
+                {allCompetencies.map((competency) => (
+                  <li key={competency.slug}>
+                    <Link
+                      href={`/projects/#${competency.slug}`}
+                      className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      {competency.metadata.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+            <li className="py-2 my-2 border-t border-gray-200">
               <Link href="/contact" className="flex font-medium text-blue-600 py-2 group" onClick={() => setMobileNavOpen(false)}>
                 Contact <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </Link>
