@@ -27,7 +27,7 @@ export default function Header({
           <nav className="hidden md:flex md:grow">
 
             {/* Desktop menu links */}
-            <ul className="flex grow justify-start items-center whitespace-nowrap overflow-x-auto">
+            <ul className="flex grow justify-start items-center whitespace-nowrap overflow-visible">
               {/* Company */}
               <li>
                 <Link href="/about" className="main-nav-item text-slate-800 dark:text-slate-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Company</Link>

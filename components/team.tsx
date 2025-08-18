@@ -15,7 +15,9 @@ export default function Team() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="headline headline-h2 font-playfair-display text-slate-800">Staff - International know-how and local expertise</h2>
             <p className="text-std mb-8">
-              We currently have a team of more than 70 Cambodian and European engineers and technicians. The combination international know-how and local expertise puts us in the position to develop appropriate, cost-efficient solutions for our clients. At the same time our clients and partners profit from our inside knowledge and commitment to the Cambodian society.
+              We currently have a team of more than 70 Cambodian and European engineers and technicians. 
+              The combination international know-how and local expertise puts us in the position to develop appropriate, cost-efficient solutions for our clients. 
+              At the same time our clients and partners profit from our inside knowledge and commitment to  Cambodian society. 
               Our engineers have a wide range of the latest hard and software at their disposal and years of experience in applying it.
             </p>
           </div>
@@ -49,8 +51,8 @@ export default function Team() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="headline headline-h2 font-playfair-display text-slate-800">Locations and affiliated companies</h2>
             <p className="text-std mb-8">
-              INROS LACKNER CAMBODIA (ILKH) is an affiliated company of INROS LACKNR SE of Germany. It is an 100% foreign owned company under the investment law of Cambodia. 
-              The decentralized company structure with numerous locations, affiliated companies and international offices combines local expertise and international knowhow.
+              INROS LACKNER CAMBODIA (ILKH) is an affiliated company of INROS LACKNR SE of Germany. 
+              This gives us access to a large pool of international experts of a company that has been serving international clients for more than eight decades.
             </p>
           </div>
 

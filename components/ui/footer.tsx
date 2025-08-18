@@ -49,13 +49,10 @@ export default function Footer() {
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Links</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="https://www.inros-lackner.de/en" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Inros Lackner SE</a>
+                <a href="https://www.inros-lackner.de/en" target="_blank" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Inros Lackner SE</a>
               </li>
               <li>
-                <a href="https://www.il-hilft.de/en" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Inros Lackner hilft</a>
-              </li>
-              <li>
-                <a href="https://whistlefox.heuking.de/start/inroslackner/en/423EF50D3A34B0120499015A676AD8ED" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Whistleblower System</a>
+                <a href="https://www.il-hilft.de/en" target="_blank" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Inros Lackner hilft</a>
               </li>
               <li>
                 <a href="#" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Corporate Partners</a>

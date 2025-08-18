@@ -31,7 +31,7 @@ export default function ContactContent() {
                 <span className="block mt-2">
                   #41, Street 588<br />
                   Sangkat Boeung Kak II,  Khan Toul Kork<br />
-                  12152 Phnom Penh, Cambodia<br />
+                  120408 Phnom Penh, Cambodia<br />
                 </span>
                 <span className="block mt-2">
                   <span className="font-semibold">Our location:</span>{" "}
@@ -39,11 +39,8 @@ export default function ContactContent() {
                 </span>
                 <span className="block mt-2">
                   <span className="font-semibold">Phone:</span>{" "}
-                  <a href="tel:+855 23 984 284" className="text-gray-700 hover:underline">+855 23 984 284</a>
-                </span>
-                <span className="block mt-2">
-                  <span className="font-semibold">Fax:</span>{" "}
-                  <a href="tel:+855 23 987 907" className="text-gray-700 hover:underline">+855 23 987 907</a>
+                  <a href="tel:+855 23 984 284" className="text-gray-700 hover:underline">+855 23 984 284</a>{", "}
+                  <a href="tel:+855 98 984 284" className="text-gray-700 hover:underline">+855 98 984 284</a>
                 </span>
                 <span className="block mt-2">
                   <span className="font-semibold">Email:</span>{" "}

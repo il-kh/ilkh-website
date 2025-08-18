@@ -22,13 +22,10 @@ export default function IlkhAboutShort() {
             <p className="subline-large mb-4">Inros Lackner Cambodia</p>
             <h2 className="headline headline-h2 mb-4">Engineering for the Future of Cambodia since 2002</h2>
             <p className="text-std">
-              INROS LACKNER (CAMBODIA) CO LTD (ILKH) is an affiliated 
-              company of INROS LACKNR SE of Germany. ILKH was founded in 
-              2002 in Phnom Penh and is an 100% foreign owned company under 
-              the investment law of Cambodia. 
-              ILKH has been providing civil and structural engineering services to 
-              public and private sector clients in Cambodia, Vietnam and Germany 
-              and currently employs 70 engineers and technicians.
+              INROS LACKNER (CAMBODIA) CO LTD (ILKH) is an affiliated company of INROS LACKNR SE of Germany. 
+              ILKH was founded in 2002 in Phnom Penh. ILKH has been providing civil and structural engineering services to public
+              and private sector clients in Cambodia and several countries in which Inros Lackner has a presence. 
+              ILKH currently employs 70 engineers and technicians.
             </p>
           </div>
 
