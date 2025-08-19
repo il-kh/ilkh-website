@@ -1,6 +1,7 @@
 ---
 title: "Design & Planning"
 value: "design-planning"
+order: 1
 subline: "Turning ideas into practical, future-ready solutions."
 icon: "/images/service-clusters/design-planning/Fachberatung_Gutachten_rgb.svg"
 image: "/images/service-clusters/design-planning/DSC01384.JPG"

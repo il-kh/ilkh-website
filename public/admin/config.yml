@@ -27,38 +27,49 @@ collections:
     folder: "content/competencies"
     create: true
     slug: "{{slug}}"
+    summary: "{{fields.title}}"
     media_folder: "public/images/competencies/{{slug}}"
     public_folder: "/images/competencies/{{slug}}"
     fields:
       - { name: "title", label: "Competency Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
-      - { name: "subline", label: "Competency Subline", widget: "string", required: true }
+      - { name: "order", label: "Order No.", widget: "number", value_type: "int", required: true }
+      - { name: "subline", label: "Subline", widget: "string", required: true }
       - { name: "icon", label: "Icon", widget: "image", required: true}
       - { name: "image", label: "Image", widget: "image", required: true}
-      - { name: "body", label: "Competency Description", widget: "markdown", required: true }
+      - { name: "body", label: "Description", widget: "markdown", required: true }
 
 collections:
   - name: "service-clusters"
     label: "Service Clusters"
-    widget: "list"
+    folder: "content/service-clusters"
+    create: true
+    slug: "{{slug}}"
     summary: "{{fields.title}}"
+    media_folder: "public/images/service-clusters/{{slug}}"
+    public_folder: "/images/service-clusters/{{slug}}"
     fields:
       - { name: "title", label: "Cluster Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
-      - { name: "subline", label: "Service Cluster Subline", widget: "string", required: true }
+      - { name: "order", label: "Order No.", widget: "number", value_type: "int", required: true }
+      - { name: "subline", label: "Subline", widget: "string", required: true }
       - { name: "icon", label: "Icon", widget: "image", required: false }
       - { name: "image", label: "Image", widget: "image", required: true }
-      - { name: "body", label: "Service Cluster Description", widget: "markdown", required: true }
+      - { name: "body", label: "Description", widget: "markdown", required: true }
 
 collections:
   - name: "services"
     label: "Services"
-    widget: "list"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
     summary: "{{fields.title}}"
+    media_folder: "public/images/services/{{slug}}"
+    public_folder: "/images/services/{{slug}}"
     fields:
       - { name: "title", label: "Service Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
-      - { name: "body", label: "Service Description", widget: "markdown", required: false }
+      - { name: "body", label: "Description", widget: "markdown", required: false }
 
 collections:
   - name: "projects"
@@ -66,6 +77,7 @@ collections:
     folder: "content/projects"
     create: true
     slug: "{{slug}}"
+    summary: "{{fields.title}}"
     media_folder: "public/images/projects/{{slug}}"
     public_folder: "/images/projects/{{slug}}"
     fields:
@@ -74,6 +86,14 @@ collections:
         label: "Competency"
         widget: "relation"
         collection: "competencies"
+        search_fields: ["title"]
+        value_field: "value"
+        display_fields: ["title"]
+        required: true
+      - name: "serviceCluster"
+        label: "Service Cluster"
+        widget: "relation"
+        collection: "service-clusters"
         search_fields: ["title"]
         value_field: "value"
         display_fields: ["title"]
@@ -95,5 +115,5 @@ collections:
       - { name: "dateStart", label: "Start Date", widget: "datetime", required: true }
       - { name: "dateEnd", label: "End Date", widget: "datetime", required: false }
       - { name: "summary", label: "Summary", widget: "string", required: true }
-      - { name: "body", label: "Project Description", widget: "markdown", required: true }
+      - { name: "body", label: "Description", widget: "markdown", required: true }
 

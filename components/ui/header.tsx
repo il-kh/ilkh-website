@@ -43,16 +43,18 @@ export default function Header({
                   </Link>
                 }
               >
-                {allCompetencies.map((competency) => (
-                  <li key={competency.slug}>
-                    <Link
-                      href={`/competencies/${competency.slug}`}
-                      className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
-                    >
-                      {competency.metadata.title}
-                    </Link>
-                  </li>
-                ))}
+                <ul>
+                  {allCompetencies.map((competency) => (
+                    <li key={competency.slug}>
+                      <Link
+                        href={`/competencies/${competency.slug}`}
+                        className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
+                      >
+                        {competency.metadata.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </Dropdown>
               {/* Services */}
               <Dropdown
@@ -65,16 +67,18 @@ export default function Header({
                   </Link>
                 }
               >
-                {allServiceClusters.map((servicecluster) => (
-                  <li key={servicecluster.slug}>
-                    <Link
-                      href={`/services/${servicecluster.slug}`}
-                      className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
-                    >
-                      {servicecluster.metadata.title}
-                    </Link>
-                  </li>
-                ))}
+                <ul>
+                  {allServiceClusters.map((servicecluster) => (
+                    <li key={servicecluster.slug}>
+                      <Link
+                        href={`/services/${servicecluster.slug}`}
+                        className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
+                      >
+                        {servicecluster.metadata.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </Dropdown>
               {/* Projects */}
               <Dropdown
@@ -87,16 +91,18 @@ export default function Header({
                   </Link>
                 }
               >
-                {allCompetencies.map((competency) => (
-                  <li key={competency.slug}>
-                    <Link
-                      href={`/projects/#${competency.slug}`}
-                      className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
-                    >
-                      {competency.metadata.title}
-                    </Link>
-                  </li>
-                ))}
+                <ul>
+                  {allCompetencies.map((competency) => (
+                    <li key={competency.slug}>
+                      <Link
+                        href={`/projects/#${competency.slug}`}
+                        className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
+                      >
+                        {competency.metadata.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </Dropdown>
             </ul>
 

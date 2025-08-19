@@ -2,7 +2,12 @@ import { getCompetencies } from '@/components/md/utils'
 import CompetencySingleTile from './competency-single-tile';
 
 export default function CompetencyTiles() {
-  const allCompetencies= getCompetencies();
+  const allCompetencies = getCompetencies();
+
+  // Sort competencies by the "order" field (ascending)
+  const sortedCompetencies = allCompetencies.slice().sort(
+    (a, b) => (a.metadata.order ?? 0) - (b.metadata.order ?? 0)
+  );
 
   return (
     <section>
@@ -21,7 +26,7 @@ export default function CompetencyTiles() {
             </div>
 
             {/* Competency tiles */}
-            {allCompetencies.map((competency, index) => (
+            {sortedCompetencies.map((competency, index) => (
               <CompetencySingleTile key={index} {...competency} />
             ))}
 

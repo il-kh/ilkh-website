@@ -1,6 +1,7 @@
 ---
 title: "Engineering & Assessment"
 value: "engineering-assessment"
+order: 2
 subline: "Building on solid foundations of expertise and precision."
 icon: "/images/service-clusters/engineering-assessment/Baumanagement_rgb.svg"
 image: "/images/service-clusters/engineering-assessment/Picture1.jpg"

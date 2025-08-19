@@ -1,6 +1,7 @@
 ---
 title: "Project Management & Construction Supervision"
 value: "project-management-construction-supervision"
+order: 3
 subline: "Goal-oriented quality assurance."
 icon: "/images/competencies/project-management-construction-supervision/Projektsteuerung_Baumanagement_rgb.svg"
 image: "/images/competencies/project-management-construction-supervision/project-mgnt-thumbnail.jpg"
