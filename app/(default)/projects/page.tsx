@@ -100,7 +100,7 @@ export default function Projects() {
               <h2 className="headline headline-h1 text-center md:text-left mb-8">Latest</h2>
               {/* Projects container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {latestProjects.map((project, projectIndex) => (
+                {latestProjects.map((project) => (
                   <ProjectItem key={project.slug} {...project} allCompetencies={sortedCompetencies} />
                 ))}
               </div>

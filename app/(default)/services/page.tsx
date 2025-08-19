@@ -30,8 +30,8 @@ export default function ServiceClusters() {
             {/* Service Clusters */}
             <div className="max-w-xl mx-auto md:max-w-none space-y-20">
 
-              {sortedServiceClusters.map((serviceCluster, index) => (
-                <ServiceClusterItem key={index} {...serviceCluster} />
+              {sortedServiceClusters.map((serviceCluster) => (
+                <ServiceClusterItem key={serviceCluster.slug} {...serviceCluster} />
               ))}
   
             </div>

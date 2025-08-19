@@ -93,7 +93,7 @@ export default function Header({
               >
                 <ul>
                   {allCompetencies.map((competency) => (
-                    <li key={competency.slug}>
+                    <li key={`projects-${competency.slug}`}>
                       <Link
                         href={`/projects/#${competency.slug}`}
                         className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"

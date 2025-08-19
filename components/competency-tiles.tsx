@@ -26,8 +26,8 @@ export default function CompetencyTiles() {
             </div>
 
             {/* Competency tiles */}
-            {sortedCompetencies.map((competency, index) => (
-              <CompetencySingleTile key={index} {...competency} />
+            {sortedCompetencies.map((competency) => (
+              <CompetencySingleTile key={competency.slug} {...competency} />
             ))}
 
           </div>

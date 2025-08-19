@@ -9,13 +9,8 @@ type DropdownProps = {
 };
 
 export default function Dropdown({ children, title }: DropdownProps) {
-  const dropdownRef = useRef<HTMLUListElement | null>(null);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
-
-  const handleClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    setDropdownOpen(!dropdownOpen);
-  };
 
   const handleFocusOut = (e: React.FocusEvent) => {
     if (
@@ -28,34 +23,30 @@ export default function Dropdown({ children, title }: DropdownProps) {
 
   return (
     <li
-      className="group relative flex items-center px-2 lg:px-4 py-2"
+      className="group relative flex items-center"
       onMouseEnter={() => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
     >
-      <button
-        className="main-nav-item flex items-center cursor-pointer text-slate-800 dark:text-slate-400 transition bg-transparent border-0 p-0"
-        aria-expanded={dropdownOpen}
-        onClick={handleClick}
-      >
+      <div className="flex items-center">
         {title}
         <svg
-          className="w-3 h-3 fill-current text-slate-400 dark:text-slate-500 cursor-pointer shrink-0 ml-0"
+          className="w-3 h-3 fill-current text-slate-400 dark:text-slate-500 cursor-pointer shrink-0 ml-1"
           viewBox="0 0 12 12"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
         </svg>
-      </button>
+      </div>
       <span className="absolute left-0 top-full origin-top-left"> 
         <Transition
           ref={dropdownRef}
           show={dropdownOpen}
-          as="ul"
+          as="div"
           className="origin-top-left absolute top-full left-0 min-w-[12rem] w-max bg-white py-2 px-2 rounded-sm shadow-lg transform transition ease-out data-enter:data-closed:-translate-y-2 data-closed:opacity-0"
           onBlur={handleFocusOut}
         >
-        {children}
-      </Transition>
+          {children}
+        </Transition>
       </span>
     </li>
   )
