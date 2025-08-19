@@ -21,6 +21,13 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Add site links in DecapCMS (optional)
 site_url: https://inros-lackner.com.kh
 
+# Required media settings
+media_folder: "public/images"
+public_folder: "/images"
+
+media_library:
+  name: uploadcare # "uploadcare" or "cloudinary" or leave it as "simple"
+
 collections:
   - name: "competencies"
     label: "Competencies"
