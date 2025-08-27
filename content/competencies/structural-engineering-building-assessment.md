@@ -1,6 +1,7 @@
 ---
 title: "Structural Engineering & Building Assessment"
 value: "structural-engineering-building-assessment"
+order: 5
 subline: "Structural integrity matters."
 icon: "/images/competencies/structural-engineering-building-assessment/Tragwerksplanung_rgb.svg"
 image: "/images/competencies/structural-engineering-building-assessment/structural-thumbnail.jpg"

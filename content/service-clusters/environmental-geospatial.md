@@ -1,6 +1,7 @@
 ---
 title: "Environmental & Geospatial"
 value: "environmental-geospatial"
+order: 3
 subline: "Mapping insights for sustainable and data-driven decisions."
 icon: "/images/service-clusters/environmental-geospatial/Umweltplanung_rgb.svg"
 image: "/images/service-clusters/environmental-geospatial/best-drones-for-data-acquisition.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Surveying & Geo-Information Systems"
 value: "surveying-geo-information-systems"
+order: 6
 subline: "Precision data capture and spatial intelligence for informed decisions."
 icon: "/images/competencies/surveying-geo-information-systems/Geoinformationssysteme_Vermessung_rgb.svg"
 image: "/images/competencies/surveying-geo-information-systems/topo-airport.jpg"

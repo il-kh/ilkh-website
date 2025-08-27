@@ -24,9 +24,8 @@ export default function Competencies() {
   
             {/* Competencies */}
             <div className="max-w-xl mx-auto md:max-w-none space-y-20">
-  
-              {allCompetencies.map((competency, index) => (
-                <CompetencyItem key={index} {...competency} />
+              {allCompetencies.map((competency) => (
+                <CompetencyItem key={competency.slug} {...competency} />
               ))}
   
             </div>

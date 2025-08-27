@@ -1,6 +1,7 @@
 ---
 title: "National Water Resource Data Management Center, Phnom Penh, Cambodia"
-competency: "Integrated Building Design"
+competency: "integrated-building-design"
+serviceCluster: "design-planning"
 thumbnail: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-P01.jpg"
 gallery:
   - image: "/images/projects/national-water-resource-data-management-center/DATA_CENTER_Building_Only_22-01-20-BV03.jpg"
@@ -16,5 +17,5 @@ The NWRMDC will be an integrated center that provides direct services and suppor
 
 **Scope:**
 Structural engineering for following project stages:
-- Concept design;
-- Schematic Design;
+- Tender design,
+- Construction supervision.

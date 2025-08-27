@@ -1,8 +1,20 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import DateYear from '@/components/date-year'
+import type { MarkdownItem, CompetencyMetadata } from '@/components/md/utils'
 
-export default function ProjectItem({ ...props }) {
+type ProjectItemProps = {
+  allCompetencies?: MarkdownItem<CompetencyMetadata>[];
+  [key: string]: any;
+};
+
+export default function ProjectItem({ allCompetencies = [], ...props }: ProjectItemProps) {
+  // Find the competency title by value
+  const competencyObj = allCompetencies.find(
+    (c) => c.metadata.value === props.metadata.competency
+  );
+  const competencyTitle = competencyObj ? competencyObj.metadata.title : props.metadata.competency;
+
   return (
     <article className="h-full flex flex-col space-y-5" data-aos="fade-up">
       {props.metadata.thumbnail &&
@@ -19,7 +31,7 @@ export default function ProjectItem({ ...props }) {
         <p className="subline-medium grow">{props.metadata.summary}</p>
         <footer className="flex items-center mt-4">
           <div>
-            <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.competency}</a>
+            <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{competencyTitle}</a>
             <span className="subline"> &#40; </span>
             <span className="subline">
               <DateYear dateString={props.metadata.dateStart} />

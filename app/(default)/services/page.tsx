@@ -10,6 +10,11 @@ import { getServiceClusters } from '@/components/md/utils'
 export default function ServiceClusters() {
   const allServiceClusters = getServiceClusters();
 
+  // Sort service clusters by the "order" field (ascending)
+  const sortedServiceClusters = allServiceClusters.slice().sort(
+    (a, b) => (a.metadata.order ?? 0) - (b.metadata.order ?? 0)
+  );
+
   return (
     <>
       <ILBlueGradHero
@@ -25,8 +30,8 @@ export default function ServiceClusters() {
             {/* Service Clusters */}
             <div className="max-w-xl mx-auto md:max-w-none space-y-20">
 
-              {allServiceClusters.map((serviceCluster, index) => (
-                <ServiceClusterItem key={index} {...serviceCluster} />
+              {sortedServiceClusters.map((serviceCluster) => (
+                <ServiceClusterItem key={serviceCluster.slug} {...serviceCluster} />
               ))}
   
             </div>

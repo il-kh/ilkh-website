@@ -1,6 +1,7 @@
 ---
 title: "Geotechnical Engineering"
 value: "geotechnical-engineering"
+order: 4
 subline: "The foundation for successful building work."
 icon: "/images/competencies/geotechnical-engineering/Grundbau_Geotechnik_rgb.svg"
 image: "/images/competencies/geotechnical-engineering/geotech-thumbnail.jpg"

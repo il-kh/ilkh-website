@@ -31,28 +31,11 @@ export function getMarkdownCollection<T = MarkdownMetadata>(folder: string): Mar
   return mdFiles.map((file) => readMDFile<T>(path.join(dir, file)));
 }
 
-// For projects
-export type ProjectMetadata = {
-  title: string;
-  competency?: string;
-  thumbnail: string;
-  gallery?: { image: string }[];
-  isShowcase?: boolean;
-  dateStart: string;
-  dateEnd?: string;
-  summary: string;
-  body: string;
-  [key: string]: any;
-};
-
-export function getProjects() {
-  return getMarkdownCollection<ProjectMetadata>("content/projects");
-}
-
 // For competencies
 export type CompetencyMetadata = {
   title: string;
   value: string;
+  order: number;
   subline: string;
   icon: string;
   image: string;
@@ -68,6 +51,8 @@ export function getCompetencies() {
 export type ServiceClusterMetadata = {
   title: string;
   value: string;
+  order: number;
+  subline: string;
   icon: string;
   image: string;
   body: string;
@@ -76,4 +61,23 @@ export type ServiceClusterMetadata = {
 
 export function getServiceClusters() {
   return getMarkdownCollection<ServiceClusterMetadata>("content/service-clusters");
+}
+
+// For projects
+export type ProjectMetadata = {
+  title: string;
+  competency?: string;
+  serviceCluster?: string;
+  thumbnail: string;
+  gallery?: { image: string }[];
+  isShowcase?: boolean;
+  dateStart: string;
+  dateEnd?: string;
+  summary: string;
+  body: string;
+  [key: string]: any;
+};
+
+export function getProjects() {
+  return getMarkdownCollection<ProjectMetadata>("content/projects");
 }

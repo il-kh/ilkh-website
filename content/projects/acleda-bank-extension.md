@@ -1,13 +1,14 @@
 ---
 title: "ACLEDA Bank Extension, Phnom Penh, Cambodia"
-competency: "Integrated Building Design"
+competency: "integrated-building-design"
+serviceCluster: "design-planning"
 thumbnail: "/images/projects/acleda-bank-extension/ACLEDA.jpg"
 gallery:
   - image: "/images/projects/acleda-bank-extension/DSC01139.JPG"
   - image: "/images/projects/acleda-bank-extension/DSC01747.JPG"
   - image: "/images/projects/acleda-bank-extension/DSC02135.JPG"
 isShowcase: true
-dateStart: "2013-01-01"
+dateStart: "2011-01-01"
 dateEnd: "2014-01-01"
 summary: "20-storey office building with 4 basement levels"
 ---
@@ -16,5 +17,6 @@ The extension of ACLEDA Bank’s head offices is a 20-storey building with four 
 
 **Scope:**
 Civil and structural engineering for following project stages:
-- Feasibility Study (as sub consult of Aedas Vietnam Ltd);
-- Concept design;
+- Feasibility Study (as sub consult of Aedas Vietnam Ltd),
+- Concept, schematic and detailed structural design,
+- Construction supervision.

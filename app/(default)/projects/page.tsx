@@ -1,4 +1,4 @@
-import { getProjects } from '@/components/md/utils'
+import { getCompetencies, getProjects } from '@/components/md/utils'
 import Link from 'next/link'
 import Image from 'next/image'
 import DateYear from '@/components/date-year'
@@ -13,21 +13,22 @@ import ProjectsHero from '@/components/projects-hero'
 import Tags from '@/components/project-tags'
 
 export default function Projects() {
+  const allCompetencies = getCompetencies();
   const allProjects = getProjects();
+
+  // Sort competencies by order
+  const sortedCompetencies = allCompetencies.slice().sort(
+    (a, b) => (a.metadata.order ?? 0) - (b.metadata.order ?? 0)
+  );
 
   // Sort projects by date
   allProjects.sort((a, b) => {
     return (new Date(a.metadata.dateStart) > new Date(b.metadata.dateStart)) ? -1 : 1
   })
-  
+
   // Slicing projects for demo purposes
   const featuredProject = allProjects[0]
-  const latestProjects = allProjects.slice(1,4)
-  const integrBuildDesignProjects = allProjects.filter(project => project.metadata.competency === 'Integrated Building Design')
-  const infraEnviroProjects = allProjects.filter(project => project.metadata.competency === 'Infrastructure & Environment')
-  const geotechnicalProjects = allProjects.filter(project => project.metadata.competency === 'Geotechnical Engineering')
-  const projectManagementProjects = allProjects.filter(project => project.metadata.competency === 'Project Management & Construction Supervision')
-  const surveyingProjects = allProjects.filter(project => project.metadata.competency === 'Surveying & Geo-Information Systems')
+  const latestProjects = allProjects.slice(1, 4)
 
   return (
     <>
@@ -36,10 +37,8 @@ export default function Projects() {
 
       {/* Featured project */}
       <section>
-
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-8 md:py-16">
-
             <article className="max-w-sm mx-auto space-y-5 md:max-w-none md:flex md:items-center md:space-y-0 md:space-x-8 lg:space-x-16">
               {/* Image */}
               {featuredProject.metadata.thumbnail &&
@@ -87,89 +86,44 @@ export default function Projects() {
                 </footer>
               </div>
             </article>
-
           </div>
-
         </div>
       </section>
 
       {/* All Projects */}
       <section className="bg-slate-50">
-
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-8 md:py-16 space-y-16">
 
             {/* Latest */}
             <div>
               <h2 className="headline headline-h1 text-center md:text-left mb-8">Latest</h2>
-
               {/* Projects container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {latestProjects.map((project, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...project} />
+                {latestProjects.map((project) => (
+                  <ProjectItem key={project.slug} {...project} allCompetencies={sortedCompetencies} />
                 ))}
               </div>
             </div>
 
-            {/* Integrated Building Design */}
-            <div id="integrated-building-design">
-              <h2 className="headline headline-h1 text-center md:text-left mb-8">Integrated Building Design</h2>
-
-              {/* Projects container */}
-              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {integrBuildDesignProjects.map((post, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...post} />
-                ))}
-              </div>
-            </div>
-
-            {/* Infrastructure & Environment */}
-            <div id="infrastructure-environment">
-              <h2 className="headline headline-h1 text-center md:text-left mb-8">Infrastructure &amp; Environment</h2>
-
-              {/* Projects container */}
-              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {infraEnviroProjects.map((post, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...post} />
-                ))}
-              </div>
-            </div>
-
-            {/* Geotechnical Engineering */}
-            <div id="geotechnical-engineering">
-              <h2 className="headline headline-h1 text-center md:text-left mb-8">Geotechnical Engineering</h2>
-
-              {/* Projects container */}
-              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {geotechnicalProjects.map((post, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...post} />
-                ))}
-              </div>
-            </div>
-
-            {/* Project Management & Construction Supervision */}
-            <div id="project-management-construction-supervision">
-              <h2 className="headline headline-h1 text-center md:text-left mb-8">Project Management &amp; Construction Supervision</h2>
-
-              {/* Projects container */}
-              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {projectManagementProjects.map((post, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...post} />
-                ))}
-              </div>
-            </div>
-
-            {/* Surveying & Geo-Information Systems */}
-            <div id="surveying-geo-information-systems">
-              <h2 className="headline headline-h1 text-center md:text-left mb-8">Surveying &amp; Geo-Information Systems</h2>
-
-              {/* Projects container */}
-              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                {surveyingProjects.map((post, projectIndex) => (
-                  <ProjectItem key={projectIndex} {...post} />
-                ))}
-              </div>
-            </div>
+            {/* Dynamic Competency Groups */}
+            {sortedCompetencies.map((competency) => {
+              // Filter projects for this competency by value (slug)
+              const projectsForCompetency = allProjects.filter(
+                (project) => project.metadata.competency === competency.metadata.value
+              );
+              if (projectsForCompetency.length === 0) return null;
+              return (
+                <div id={competency.metadata.value} key={competency.metadata.value}>
+                  <h2 className="headline headline-h1 text-center md:text-left mb-8">{competency.metadata.title}</h2>
+                  <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                    {projectsForCompetency.map((post) => (
+                      <ProjectItem key={post.slug} {...post} allCompetencies={sortedCompetencies} />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
 
             {/* See All Projects */}
             <div className="text-center">
@@ -179,9 +133,8 @@ export default function Projects() {
             </div>
 
           </div>
-
         </div>
-      </section>      
+      </section>
     </>
   )
 }

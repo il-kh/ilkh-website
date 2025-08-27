@@ -1,6 +1,7 @@
 ---
 title: "Techo International Airport, Kandal Province, Cambodia"
-competency: "Surveying & Geo-Information Systems"
+competency: "surveying-geo-information-systems"
+serviceCluster: "environmental-geospatial"
 thumbnail: "/images/projects/lbl-techo-international-airport-3d-laser-scan/1.jpg"
 gallery:
   - image: "/images/projects/lbl-techo-international-airport-3d-laser-scan/05_NorthwestPier_Raw.jpg"
@@ -9,7 +10,7 @@ gallery:
 isShowcase: true
 dateStart: "2023-02-01"
 dateEnd: "2023-09-30"
-summary: "3D Laser Scan for new International Airport"
+summary: "3D Laser Scan and development of an as-built 3D surface model for new International Airport"
 ---
 
 The new Techo International Airport Phnom Penh is currently under construction and is going to start operation in 2025. The total area for the entire airport develop­ment is about 2,600 ha, making it one of the biggest airports in the world (by land size:).

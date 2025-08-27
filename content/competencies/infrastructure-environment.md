@@ -1,6 +1,7 @@
 ---
 title: "Infrastructure & Environment"
 value: "infrastructure-environment"
+order: 2
 subline: "Infrastructure connects people."
 icon: "/images/competencies/infrastructure-environment/Infrastrukturplanung_rgb.svg"
 image: "/images/competencies/infrastructure-environment/infrastructure-thumbnail.jpg"

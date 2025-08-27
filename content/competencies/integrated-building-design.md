@@ -1,6 +1,7 @@
 ---
 title: "Integrated Building Design"
 value: "integrated-building-design"
+order: 1
 subline: "The art and craft of designing a building is collaborative."
 icon: "/images/competencies/integrated-building-design/Integrated_building_design.svg"
 image: "/images/competencies/integrated-building-design/integrated-building-thumbnail.jpg"

@@ -15,10 +15,7 @@ export default function Cta() {
                 Vietnam and Germany and offers a wide range of expertise,
                 which has continuously been expanded throughout the company history. The company provides services in the fields of hydraulic
                 engineering and port logistics, integrated building design, energy and environmental engineering and infrastructure design.
-                ILKH is a member of the German Chamber of Commerce and Industry in Cambodia (AHK) and the Cambodian Constructors Association (CCA).
-                The company is also a member of the International Federation of Consulting Engineers (FIDIC) and the German Association of Consulting Engineers (VBI).
-                ILKH is committed to the development of Cambodia and its people. The company supports local communities through various initiatives,
-                including education, health care, and environmental protection. ILKH is also a member of the Cambodian Business Council for Sustainable Development (CBCSD).
+                ILKH is a member of the GBC (German Business in Cambodia) and the European Chamber of Commerce in Cambodia.
               </p>
               <p className="text-std mb-8">
                 Please click below to download our company brochure and learn more about our services and projects.
