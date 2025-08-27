@@ -55,7 +55,7 @@ export default function Footer() {
                 <a href="https://www.il-hilft.de/en" target="_blank" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Inros Lackner hilft</a>
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Corporate Partners</a>
+                <a href="/partners" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Corporate Partners</a>
               </li>
             </ul>
           </div>
