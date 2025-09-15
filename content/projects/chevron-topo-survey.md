@@ -12,7 +12,7 @@ dateStart: 2023-04-01
 dateEnd: 2023-12-31
 summary: Topographic survey services for the extension of a terminal.
 ---
-Inros Lackner (Cambodia) Co., Ltd was contracted to provided the Topographic survey services for an adjacent area for the extension of the oil terminal.
+Inros Lackner (Cambodia) Co., Ltd was contracted to provided the Topographic survey services for an adjacent area for the extension of the terminal.
 
 **Scope:**
 

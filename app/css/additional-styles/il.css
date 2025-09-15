@@ -96,3 +96,21 @@
   font-size: 1.125rem;
   color: #0d0d0d;
 }
+
+.prose.text-std {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem; /* 18px */
+  color: #0d0d0d;
+}
+
+.prose.text-std.text-std-bold {
+  font-family: 'Myriad Pro Light', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem; /* 18px */
+  color: #0d0d0d;
+}
+
+.prose.text-std.text-std-heading {
+  font-size: 1.467rem; /* 22pt */
+}

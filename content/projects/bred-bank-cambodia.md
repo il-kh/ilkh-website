@@ -1,6 +1,7 @@
 ---
 title: "BRED Bank Cambodia, Phnom Penh, Cambodia"
 competency: "structural-engineering-building-assessment"
+serviceCluster: "design-planning"
 thumbnail: "/images/projects/bred-bank-cambodia/1_bred-bank.jpg"
 gallery:
   - image: "/images/projects/bred-bank-cambodia/3_bred-bank.jpg"

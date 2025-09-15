@@ -71,8 +71,8 @@ export type ProjectMetadata = {
   thumbnail: string;
   gallery?: { image: string }[];
   isShowcase?: boolean;
-  dateStart: string;
-  dateEnd?: string;
+  dateStart: string | Date;
+  dateEnd?: string | Date;
   summary: string;
   body: string;
   [key: string]: any;
