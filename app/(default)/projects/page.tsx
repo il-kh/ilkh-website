@@ -21,9 +21,11 @@ export default function Projects() {
     (a, b) => (a.metadata.order ?? 0) - (b.metadata.order ?? 0)
   );
 
-  // Sort projects by date
+  // Sort projects by date with proper type safety
   allProjects.sort((a, b) => {
-    return (new Date(a.metadata.dateStart) > new Date(b.metadata.dateStart)) ? -1 : 1
+    const dateA = new Date(String(a.metadata.dateStart));
+    const dateB = new Date(String(b.metadata.dateStart));
+    return dateA > dateB ? -1 : 1;
   })
 
   // Slicing projects for demo purposes
@@ -65,13 +67,13 @@ export default function Projects() {
                     <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.competency}</a>
                     <span className="subline"> &#40; </span>
                     <span className="subline">
-                      <DateYear dateString={featuredProject.metadata.dateStart} />
+                      <DateYear dateString={String(featuredProject.metadata.dateStart)} />
                     </span>
-                    {featuredProject.metadata.dateEnd && new Date(featuredProject.metadata.dateEnd).getFullYear() > new Date(featuredProject.metadata.dateStart).getFullYear() ? (
+                    {featuredProject.metadata.dateEnd && new Date(String(featuredProject.metadata.dateEnd)).getFullYear() > new Date(String(featuredProject.metadata.dateStart)).getFullYear() ? (
                       <>
                         <span className="subline"> to </span>
                         <span className="subline">
-                          <DateYear dateString={featuredProject.metadata.dateEnd} />
+                          <DateYear dateString={String(featuredProject.metadata.dateEnd)} />
                         </span>
                       </>
                     ) : (
