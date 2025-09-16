@@ -22,7 +22,7 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 site_url: https://inros-lackner.com.kh
 
 # Required media settings
-media_folder: "public/images"
+media_folder: "../../public/images"
 public_folder: "/images"
 
 media_library:
@@ -35,7 +35,7 @@ collections:
     create: true
     slug: "{{slug}}"
     summary: "{{fields.title}}"
-    media_folder: "public/images/competencies/{{slug}}"
+    media_folder: "../../public/images/competencies/{{slug}}"
     public_folder: "/images/competencies/{{slug}}"
     fields:
       - { name: "title", label: "Competency Name", widget: "string", required: true }
@@ -52,7 +52,7 @@ collections:
     create: true
     slug: "{{slug}}"
     summary: "{{fields.title}}"
-    media_folder: "public/images/service-clusters/{{slug}}"
+    media_folder: "../../public/images/service-clusters/{{slug}}"
     public_folder: "/images/service-clusters/{{slug}}"
     fields:
       - { name: "title", label: "Cluster Name", widget: "string", required: true }
@@ -69,7 +69,7 @@ collections:
     create: true
     slug: "{{slug}}"
     summary: "{{fields.title}}"
-    media_folder: "public/images/services/{{slug}}"
+    media_folder: "../../public/images/services/{{slug}}"
     public_folder: "/images/services/{{slug}}"
     fields:
       - { name: "title", label: "Service Name", widget: "string", required: true }
@@ -82,7 +82,7 @@ collections:
     create: true
     slug: "{{slug}}"
     summary: "{{fields.title}}"
-    media_folder: "public/images/projects/{{slug}}"
+    media_folder: "../../public/images/projects/{{slug}}"
     public_folder: "/images/projects/{{slug}}"
     fields:
       - { name: "title", label: "Project Title", widget: "string", required: true }
