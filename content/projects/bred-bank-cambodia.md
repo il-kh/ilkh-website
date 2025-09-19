@@ -12,7 +12,7 @@ dateStart: 2015-01-01
 dateEnd: 2016-12-31
 summary: Renovation and structural strengthening of bank building
 ---
-BRED Bank (Cambodia) Plc converted a former hotel into a bank and office building. The project started with structural surveys and investigations followed by the design and of implementation structural strengthening works. 
+BRED Bank (Cambodia) Plc converted a former hotel into a bank and office building. The project started with structural surveys and investigations followed by the design and implementation of structural strengthening works. 
 
 **Scope:**
 
