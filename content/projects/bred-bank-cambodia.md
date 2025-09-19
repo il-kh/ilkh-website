@@ -7,6 +7,7 @@ gallery:
   - image: /images/projects/bred-bank-cambodia/3_bred-bank.jpg
   - image: /images/projects/bred-bank-cambodia/4_bred-bank.jpg
   - image: /images/projects/bred-bank-cambodia/5_bred-bank.jpg
+  - image: /images/projects/bred-bank-cambodia-phnom-penh-cambodia/1_demolition.jpg
 isShowcase: true
 dateStart: 2015-01-01
 dateEnd: 2016-12-31
