@@ -1,16 +1,18 @@
 ---
-title: "Rural Infrastructure Development for Cambodia RID4CAM"
-competency: "infrastructure-environment"
-serviceCluster: "design-planning"
-thumbnail: "/images/projects/rid4cam/Picture1.jpg"
+title: Rural Infrastructure Development for Cambodia RID4CAM
+competency: infrastructure-environment
+serviceCluster: design-planning
+thumbnail: /images/projects/rural-infrastructure-development-for-cambodia-rid4cam/r.jpg
 gallery:
-  - image: "/images/projects/rid4cam/Picture1.jpg"
-  - image: "/images/projects/rid4cam/Picture2.jpg"
-  - image: "/images/projects/rid4cam/Picture3.jpg"
+  - image: /images/projects/rid4cam/Picture1.jpg
+  - image: /images/projects/rid4cam/Picture2.jpg
+  - image: /images/projects/rid4cam/Picture3.jpg
 isShowcase: true
-dateStart: "2021-12-01"
+dateStart: 2021-12-01
 dateEnd: ""
-summary: "Rehabilitation of 550 km of roads and bridges in five provinces, Construction of two community pipped water supply schemes with 1,800 household connections, each"
+summary: Rehabilitation of 550 km of roads and bridges in five provinces,
+  Construction of two community pipped water supply schemes with 1,800 household
+  connections, each
 ---
 
 **Project Description:**
