@@ -11,4 +11,4 @@ dateEnd: 2025-09-10T19:49:00.000+07:00
 summary: Cone Penetration Tests (CPTu) in the context of Pre-Design Surveys at
   Oil Terminal in Phnom Penh
 ---
-Inros Lackner (Cambodia) Co., Ltd. was engaged by BVM Petroleum Import & Export Co., Ltd. to carry out geotechnical investigations by Cone Penetration Tests (CPTu) for Pre-Design Surveys with regards to the expansion and upgrade of the BVM Oil Terminal in Bakheng, Phnom Penh.
+Inros Lackner (Cambodia) Co., Ltd. was engaged by BVM Petroleum Import & Export Co., Ltd. to carry out surveys and investigations for the expansion and upgrade of the BVM Oil Terminal in Bakheng, Phnom Penh.
