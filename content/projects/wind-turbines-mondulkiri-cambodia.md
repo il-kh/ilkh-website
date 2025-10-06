@@ -7,7 +7,7 @@ gallery:
   - image: /images/projects/wind-turbines-mondulkiri-cambodia/main_3-cptu-03a.jpg
 isShowcase: false
 dateStart: 2025-09-01T08:43:00.000+07:00
-dateEnd: ""
+dateEnd: 2025-09-30T08:51:00.000+07:00
 summary: Geotechnical investigations by Cone Penetration Tests (CPTu) for a Wind
   Turbines Project in Mondulkiri province
 ---
