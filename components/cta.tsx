@@ -14,7 +14,7 @@ export default function Cta() {
                 ILKH has been providing civil and structural engineering services to public and private sector clients in Cambodia,
                 Vietnam and Germany and offers a wide range of expertise,
                 which has continuously been expanded throughout the company history. The company provides services in the fields of hydraulic
-                engineering and port logistics, integrated building design, energy and environmental engineering and infrastructure design.
+                engineering and port logistics, geotechnical investigations, integrated building design, energy and environmental engineering and infrastructure design.
                 ILKH is a member of the GBC (German Business in Cambodia) and the European Chamber of Commerce in Cambodia.
               </p>
               <p className="text-std mb-8">

@@ -9,83 +9,178 @@
 
 <url>
   <loc>https://inros-lackner.com.kh/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/about/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/competencies/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://inros-lackner.com.kh/contact/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://inros-lackner.com.kh/projects/lbl-techo-international-airport-3d-laser-scan/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://inros-lackner.com.kh/projects/bred-bank-cambodia/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://inros-lackner.com.kh/projects/acleda-bank-extension/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://inros-lackner.com.kh/documents/ILKH_Company%20Profile%20240715_infra.pdf</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://inros-lackner.com.kh/imprint/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
+  <loc>https://inros-lackner.com.kh/services/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/contact/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/integrated-building-design/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/infrastructure-environment/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/project-management-construction-supervision/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/geotechnical-engineering/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/structural-engineering-building-assessment/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/competencies/surveying-geo-information-systems/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/lbl-techo-international-airport-3d-laser-scan/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/rid4cam/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/bred-bank-cambodia/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/documents/ILKH_Company%20Profile%20240715_infra.pdf</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/partners/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/imprint/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/services/design-planning/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/services/engineering-assessment/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/services/environmental-geospatial/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/services/construction-support/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/wind-turbines-mondulkiri-cambodia/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/bvm-oil-terminal-expansion/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/chevron-multichannel-analysis-of-surface-waves-masw/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/chevron-topo-survey/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/national-water-resource-data-management-center/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/residence-90/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/acleda-bank-extension/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/cmic-water-management-sudy-flood-control/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/rural-infrastructure-program-for-cambodia/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/sihanouk-international-airport-sihanoukville-cambodia/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://inros-lackner.com.kh/projects/vinci-geotech-bakheng-wtp/</loc>
-  <lastmod>2025-08-02T14:15:18+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/general-department-of-taxation-pile-foundation-testing/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://inros-lackner.com.kh/projects/dfs-group-t-galleria-store/</loc>
+  <lastmod>2025-10-08T06:44:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
