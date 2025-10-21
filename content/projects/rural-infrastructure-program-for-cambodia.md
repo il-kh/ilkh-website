@@ -1,6 +1,7 @@
 ---
 title: "Rural Infrastructure Development Programme for Cambodia"
 competency: "infrastructure-environment"
+serviceCluster: "design-planning"
 thumbnail: "/images/projects/rural-infrastructure-program-for-cambodia/Picture11.jpg"
 gallery:
   - image: "/images/projects/rural-infrastructure-program-for-cambodia/Picture9.jpg"
