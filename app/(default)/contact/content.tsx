@@ -6,11 +6,12 @@ export default function ContactContent() {
   const [emailHref, setEmailHref] = useState('javascript:void(0)');
 
   useEffect(() => {
-    const obfuscated = "to-kh@";
+    const obfuscated = "to-/";
     const realEmail = obfuscated
-      .replace('-', 'lackner.')
-      .replace('kh@', 'kh@gmail.com')
-      .replace('to', 'mailto:inros');
+      .replace('-', 'fo@')
+      .replaceAll('-', '.')
+      .replace('/', 'inros-lackner.com.kh')
+      .replace('to', 'mailto:in');
     
     setEmailHref(realEmail);
   }, []);
@@ -42,7 +43,7 @@ export default function ContactContent() {
                   <a href="tel:+855 98 984 284" className="text-gray-700 hover:underline">+855 98 984 284</a>
                 </span>
                 <span className="block mt-2">
-                  <span className="font-semibold">Email (Temporary contact):</span>{" "}
+                  <span className="font-semibold">Email:</span>{" "}
                   <a
                     href={emailHref}
                     className="text-gray-700 hover:underline"
