@@ -39,7 +39,9 @@ export default function Footer() {
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Resources</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Downloads</a>
+                <Link href="/" className="text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">
+                  Downloads
+                </Link>
               </li>
             </ul>
           </div>

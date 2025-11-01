@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Cta() {
   return (
-    <section className="bg-slate-100">
+    <section id="cta" className="bg-slate-100">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -18,24 +18,48 @@ export default function Cta() {
                 ILKH is a member of the GBC (German Business in Cambodia) and the European Chamber of Commerce in Cambodia.
               </p>
               <p className="text-std mb-8">
-                Please click below to download our company brochure and learn more about our services and projects.
+                Please click below on the thumbnails to <b>download</b> our company brochures and learn more about our services and projects.
               </p>
-              <div>
-                <a
-                  className="btn text-[#0d0d0d] bg-white hover:text-[#f4f4f4] hover:bg-[#002240] group border border-black"
-                  href="/documents/ILKH_Company%20Profile%20240715_infra.pdf"
-                  download
-                >
-                  Company Brochure Infra
-                  <span className="tracking-normal text-gray-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
-                  </span>
-                </a>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="relative text-center group">
+                  <a href="/documents/ILKH_Company_Profile_250822_Infrastructure.pdf" download>
+                    <h2 className="headline headline-h2 mb-4 absolute top-10 left-1/2 -translate-x-1/2 !bg-white px-4 z-10">
+                      Infra Brochure
+                    </h2>
+                    <img
+                      src="/images/brochures/infra-thumbnail.jpg"
+                      alt="Company Brochure Infra"
+                      className="w-full max-w-[300px] h-auto mb-2 rounded shadow-lg group-hover:scale-105 transition duration-700 ease-out mx-auto"
+                    />
+                  </a>
+                </div>
+                <div className="relative text-center group">
+                  <a href="/documents/ILKH_Company_Profile_250822_Buildings.pdf" download>
+                    <h2 className="headline headline-h2 mb-4 absolute top-10 left-1/2 -translate-x-1/2 !bg-white px-4 z-10">
+                      Buildings Brochure
+                    </h2>
+                    <img
+                      src="/images/brochures/buildings-thumbnail.jpg"
+                      alt="Company Brochure Buildings"
+                      className="w-full max-w-[300px] h-auto mb-2 rounded shadow-lg group-hover:scale-105 transition duration-700 ease-out mx-auto"
+                    />
+                  </a>
+                </div>
+                <div className="relative text-center group">
+                  <a href="/documents/ILKH_Construction_Quality_Assurance.pdf" download>
+                    <h2 className="headline headline-h2 mb-4 absolute top-10 left-1/2 -translate-x-1/2 !bg-white px-4 z-10">
+                      QA Brochure
+                    </h2>
+                    <img
+                      src="/images/brochures/qa-thumbnail.jpg"
+                      alt="Company Brochure QA Services"
+                      className="w-full max-w-[300px] h-auto mb-2 rounded shadow-lg group-hover:scale-105 transition duration-700 ease-out mx-auto"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
