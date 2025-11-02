@@ -1,1 +1,11 @@
-/admin/*     /admin/index.html   200
+# Redirect Decap CMS admin to the correct path (SPA routing)
+/admin/*    /admin/index.html    200
+
+# Force HTTPS (redirect all HTTP to HTTPS)
+http://inros-lackner.com.kh/*    https://inros-lackner.com.kh/:splat    301!
+
+# Redirect www HTTP to HTTPS
+http://www.inros-lackner.com.kh/*    https://www.inros-lackner.com.kh/:splat    301!
+
+# Optional: Redirect www to non-www (HTTPS)
+https://www.inros-lackner.com.kh/*    https://inros-lackner.com.kh/:splat    301!
