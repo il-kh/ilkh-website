@@ -63,6 +63,21 @@ export function getServiceClusters() {
   return getMarkdownCollection<ServiceClusterMetadata>("content/service-clusters");
 }
 
+// For services
+export type ServiceMetadata = {
+  title: string;
+  competency?: string;
+  serviceCluster?: string;
+  thumbnail: string;
+  gallery?: { image: string }[];
+  body: string;
+  [key: string]: any;
+};
+
+export function getServices() {
+  return getMarkdownCollection<ServiceMetadata>("content/services");
+}
+
 // For projects
 export type ProjectMetadata = {
   title: string;
