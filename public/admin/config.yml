@@ -74,6 +74,30 @@ collections:
     fields:
       - { name: "title", label: "Service Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
+      - name: "competency"
+        label: "Competency"
+        widget: "relation"
+        collection: "competencies"
+        search_fields: ["title"]
+        value_field: "value"
+        display_fields: ["title"]
+        required: true
+      - name: "serviceCluster"
+        label: "Service Cluster"
+        widget: "relation"
+        collection: "service-clusters"
+        search_fields: ["title"]
+        value_field: "value"
+        display_fields: ["title"]
+        required: true
+      - { name: "thumbnail", label: "Thumbnail Image", widget: "image", required: true }
+      - name: "gallery"
+        label: "Gallery Images"
+        widget: "list"
+        fields:
+          - name: "image"
+            label: "Image"
+            widget: "image"
       - { name: "body", label: "Description", widget: "markdown", required: true }
 
   - name: "projects"
@@ -102,12 +126,18 @@ collections:
         value_field: "value"
         display_fields: ["title"]
         required: true
-      - {
-          name: "thumbnail",
-          label: "Thumbnail Image",
-          widget: "image",
-          required: true,
-        }
+      - name: "services"
+        label: "Services"
+        widget: "list"
+        fields:
+          - name: "service"
+            label: "Service"
+            widget: "relation"
+            collection: "services"
+            search_fields: ["title"]
+            value_field: "value"
+            display_fields: ["title"]
+      - { name: "thumbnail", label: "Thumbnail Image", widget: "image", required: true }
       - name: "gallery"
         label: "Gallery Images"
         widget: "list"

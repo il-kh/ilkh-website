@@ -83,6 +83,7 @@ export type ProjectMetadata = {
   title: string;
   competency?: string;
   serviceCluster?: string;
+  service?: { service: string }[];
   thumbnail: string;
   gallery?: { image: string }[];
   isShowcase?: boolean;
