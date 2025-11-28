@@ -60,7 +60,7 @@ export default function Header({
               <Dropdown
                 title={
                   <Link
-                    href="/services"
+                    href="/service-clusters"
                     className="main-nav-item text-slate-800 dark:text-slate-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
                     Services
@@ -71,7 +71,7 @@ export default function Header({
                   {allServiceClusters.map((servicecluster) => (
                     <li key={servicecluster.slug}>
                       <Link
-                        href={`/services/${servicecluster.slug}`}
+                        href={`/service-clusters/${servicecluster.slug}`}
                         className="font-medium text-sm text-gray-600 hover:text-slate-600 flex py-2 px-5 leading-tight"
                       >
                         {servicecluster.metadata.title}

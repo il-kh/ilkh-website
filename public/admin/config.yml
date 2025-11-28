@@ -74,7 +74,7 @@ collections:
     fields:
       - { name: "title", label: "Service Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
-      - { name: "body", label: "Description", widget: "markdown", required: false }
+      - { name: "body", label: "Description", widget: "markdown", required: true }
 
   - name: "projects"
     label: "Projects"

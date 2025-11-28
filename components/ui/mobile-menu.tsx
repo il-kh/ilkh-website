@@ -105,12 +105,12 @@ export default function MobileMenu({
               </ul>
             </li>
             <li className="py-2 my-2 border-t border-gray-200">
-              <Link href="/services" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Services</Link>
+              <Link href="/service-clusters" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Services</Link>
               <ul className="pl-4">
                 {allServiceClusters.map((serviceCluster) => (
                   <li key={serviceCluster.slug}>
                     <Link
-                      href={`/services/${serviceCluster.slug}`}
+                      href={`/service-clusters/${serviceCluster.slug}`}
                       className="text-sm flex font-medium text-gray-600 hover:text-blue-600 py-2"
                       onClick={() => setMobileNavOpen(false)}
                     >
