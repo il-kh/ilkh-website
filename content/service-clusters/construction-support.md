@@ -1,7 +1,7 @@
 ---
 title: "Construction Support"
 value: "construction-support"
-order: 4
+order: 5
 subline: "Guiding projects from plans to successful completion."
 icon: "/images/service-clusters/construction-support/Architektur_Staedtebau_rgb.svg"
 image: "/images/service-clusters/construction-support/IMG_5178.JPG"

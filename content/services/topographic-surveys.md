@@ -1,8 +1,12 @@
 ---
 title: "Topographic Surveys"
 value: "topographic-surveys"
-competency: "surveying-geo-information-systems"
-serviceCluster: "environmental-geospatial"
+competencies:
+  - competency: "surveying-geo-information-systems"
+  - competency: "geotechnical-engineering"
+serviceClusters:
+  - serviceCluster: "environmental-geospatial"
+  - serviceCluster: "construction-support"
 thumbnail: "/images/services/topographic-surveys/topo-main.jpg"
 gallery:
   - image: "/images/services/topographic-surveys/at-airport.jpg"
@@ -10,7 +14,7 @@ gallery:
   - image: "/images/services/topographic-surveys/irrigation.jpg"
 ---
 
-The extension of ACLEDA Bank’s head offices is a 20-storey building with four basements. The total floor area of the building is 40,000 sqm. Inros Lackner Cambodia was hired by ACLEDA for the structural design of the building including geotechnical investigations, design of foundations and basements, and the quality assurance of foundation works. The building structure is made of reinforced concrete and features the first bidirectional voided flat slabs in Cambodia. The quality assurance of foundation works included Koden tests, dynamic pile tests and pile integrity testing by cross-hole sonic logging. 
+The extension of ACLEDA Bank's head offices is a 20-storey building with four basements. The total floor area of the building is 40,000 sqm. Inros Lackner Cambodia was hired by ACLEDA for the structural design of the building including geotechnical investigations, design of foundations and basements, and the quality assurance of foundation works. The building structure is made of reinforced concrete and features the first bidirectional voided flat slabs in Cambodia. The quality assurance of foundation works included Koden tests, dynamic pile tests and pile integrity testing by cross-hole sonic logging. 
 
 **Equipment:**
 - GNSS Equipment

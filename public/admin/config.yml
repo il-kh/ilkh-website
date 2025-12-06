@@ -74,22 +74,28 @@ collections:
     fields:
       - { name: "title", label: "Service Name", widget: "string", required: true }
       - { name: "value", label: "Value (Slug or Key)", widget: "string", required: true }
-      - name: "competency"
-        label: "Competency"
-        widget: "relation"
-        collection: "competencies"
-        search_fields: ["title"]
-        value_field: "value"
-        display_fields: ["title"]
-        required: true
-      - name: "serviceCluster"
-        label: "Service Cluster"
-        widget: "relation"
-        collection: "service-clusters"
-        search_fields: ["title"]
-        value_field: "value"
-        display_fields: ["title"]
-        required: true
+      - name: "competencies"
+        label: "Competencies"
+        widget: "list"
+        fields:
+          - name: "competency"
+            label: "Competency"
+            widget: "relation"
+            collection: "competencies"
+            search_fields: ["title"]
+            value_field: "value"
+            display_fields: ["title"]
+      - name: "serviceClusters"
+        label: "Service Clusters"
+        widget: "list"
+        fields:
+          - name: "serviceCluster"
+            label: "Service Cluster"
+            widget: "relation"
+            collection: "service-clusters"
+            search_fields: ["title"]
+            value_field: "value"
+            display_fields: ["title"]
       - { name: "thumbnail", label: "Thumbnail Image", widget: "image", required: true }
       - name: "gallery"
         label: "Gallery Images"
