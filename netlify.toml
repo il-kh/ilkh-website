@@ -4,4 +4,4 @@
 
 [build.environment]
   NETLIFY_USE_PNPM = "true"
-  NODE_VERSION = "18"
+  NODE_VERSION = "20.9.0"
