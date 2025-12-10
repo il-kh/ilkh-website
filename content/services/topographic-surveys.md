@@ -3,10 +3,8 @@ title: "Topographic Surveys"
 value: "topographic-surveys"
 competencies:
   - competency: "surveying-geo-information-systems"
-  - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-  - serviceCluster: "construction-support"
 thumbnail: "/images/services/topographic-surveys/topo-main.jpg"
 gallery:
   - image: "/images/services/topographic-surveys/at-airport.jpg"
@@ -14,7 +12,7 @@ gallery:
   - image: "/images/services/topographic-surveys/irrigation.jpg"
 ---
 
-The extension of ACLEDA Bank's head offices is a 20-storey building with four basements. The total floor area of the building is 40,000 sqm. Inros Lackner Cambodia was hired by ACLEDA for the structural design of the building including geotechnical investigations, design of foundations and basements, and the quality assurance of foundation works. The building structure is made of reinforced concrete and features the first bidirectional voided flat slabs in Cambodia. The quality assurance of foundation works included Koden tests, dynamic pile tests and pile integrity testing by cross-hole sonic logging. 
+Topographic surveys are a critical service we provide to support precise planning and execution of engineering projects. Using advanced GNSS equipment, total stations, and levels, we deliver accurate measurements for reference points, topographic mapping, set-outs, and settlement monitoring. Our team utilizes cutting-edge tools such as Trimble R8s, Sokkia CX101, and Trimble Business Center software to ensure high-quality data collection and processing. With expertise in static, post-processed kinematic, and real-time kinematic survey modes, we adapt to the unique needs of each project. Additionally, we leverage software like Agisoft Metashape and Pix4D for photogrammetry and 3D modeling, enhancing the precision of our deliverables. Whether it's surveying at airports, irrigation systems, or construction sites, our topographic surveys provide the foundation for informed decision-making.
 
 **Equipment:**
 - GNSS Equipment
@@ -42,3 +40,10 @@ The extension of ACLEDA Bank's head offices is a 20-storey building with four ba
   - Staffs
   - Rod levels
   - And others
+- Software
+  - Trimble Business Centre
+  - Trimble Scan X7
+  - Trimble Real Works
+  - Agisoft Metashape
+  - Pix4D
+  - Kongsberg EA440 System
