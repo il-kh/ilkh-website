@@ -1,14 +1,30 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import Image from 'next/image'
-import { CustomMD } from '@/components/md/md'
-import ProjectSingleHero from '@/components/project-single-hero'
+import { useState } from 'react';
+import Image from 'next/image';
+import { CustomMD } from '@/components/md/md';
+import ProjectSingleHero from '@/components/project-single-hero';
+import Link from 'next/link';
 
-export default function ProjectContent({ project, implementationPeriod, allImages }: {
-  project: any;
+interface Service {
+  slug: string;
+  metadata?: {
+    title: string;
+  };
+}
+
+export default function ProjectContent({ project, implementationPeriod, allImages, servicesWithMetadata }: {
+  project: {
+    metadata: {
+      title: string;
+      thumbnail: string;
+      services?: Service[];
+    };
+    content: string;
+  };
   implementationPeriod: string;
   allImages: string[];
+  servicesWithMetadata: Service[];
 }) {
   const [currentImage, setCurrentImage] = useState(project.metadata.thumbnail);
 
@@ -78,6 +94,25 @@ export default function ProjectContent({ project, implementationPeriod, allImage
               <article className="prose text-std max-w-none prose-lg prose-p:leading-normal prose-headings:text-std-heading prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:text-std prose-strong:text-std-bold prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
                 <CustomMD source={project.content} />
               </article>
+              {/* Services Section - Only show if there are services */}
+              {servicesWithMetadata.length > 0 && (
+                <div className="py-8 md:py-8">
+                  <div className="py-8 md:py-8">
+                    <h2 className="text-2xl font-bold mb-6">Related Services</h2>
+                    <div className="flex flex-wrap gap-4">
+                      {servicesWithMetadata.map((service) => (
+                        <Link
+                          key={service.slug}
+                          href={`/services/${service.slug}`}
+                          className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 hover:text-gray-900 transition-colors duration-200"
+                        >
+                          {service.metadata?.title || 'Service title unavailable'}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

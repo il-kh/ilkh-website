@@ -5,20 +5,19 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/subsurface-monitoring/dummy_thumbnail.jpg
-gallery:
-  - /images/services/subsurface-monitoring/dummy_01.jpg
-  - /images/services/subsurface-monitoring/dummy_02.jpg
-  - /images/services/subsurface-monitoring/dummy_03.jpg
+thumbnail: /images/services/subsurface-monitoring/subsurface-monitoring.png
+gallery: []
 ---
 
 Our Subsurface Monitoring service provides precise measurements of lateral ground movement and groundwater levels to ensure the stability and safety of engineering projects. Using advanced equipment like digital inclinometers and water level meters, we monitor slopes, embankments, and groundwater conditions in real-time. This service is essential for geotechnical assessments, foundation design, and long-term site stability.
 
 ## Equipment
+
 **Lateral Ground Movement**
 - Digital Inclinometer
   - 1 Geokon digital inclinimeter system model GK-604D
   - Determines and measures lateral movements in and around landslides, unstable slopes, dam embankments, landfills, slurry walls, caissons, piles, sheet piling, tunnels, and more
+  
 **Groundwater Level**
 - 6 Van Essen Instruments DI605 Micro Diver
   - Submersible datalogger for long-term, uninterrupted, real-time water level monitoring using a pressure sensor

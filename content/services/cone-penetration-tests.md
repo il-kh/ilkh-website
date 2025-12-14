@@ -5,11 +5,8 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/cone-penetration-tests/dummy_thumbnail.jpg
-gallery:
-  - /images/services/cone-penetration-tests/dummy_01.jpg
-  - /images/services/cone-penetration-tests/dummy_02.jpg
-  - /images/services/cone-penetration-tests/dummy_03.jpg
+thumbnail: /images/services/cone-penetration-tests/cone-penetration-tests.png
+gallery: []
 ---
 
 Our Cone Penetration Tests (CPT & CPTu) service provides precise in-situ measurements of soil properties, including cone tip resistance, sleeve friction, and pore water pressure. Using advanced equipment like the 200 kN Crawler 2Y-20E and the AP Van den Berg Hyson 100 kN, we deliver reliable data for geotechnical site characterization and foundation design. These tests are essential for assessing soil strength, stratigraphy, and groundwater conditions, ensuring accurate and cost-effective engineering solutions. With the support of specialized software like CPeT-IT, we analyze and interpret data to provide actionable insights for your project.

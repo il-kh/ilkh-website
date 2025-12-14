@@ -1,7 +1,12 @@
 ---
 title: Wind Turbines, Mondulkiri, Cambodia
 competency: geotechnical-engineering
-serviceCluster: engineering-assessment
+serviceCluster: geotechnical-field-tests
+services:
+  - service: "cone-penetration-tests"
+  - service: "subgrade-characterization"
+  - service: "soil-strength-assessment"
+  - service: "subsurface-monitoring"
 thumbnail: /images/projects/wind-turbines-mondulkiri-cambodia/main_3-cptu-03b.jpg
 gallery:
   - image: /images/projects/wind-turbines-mondulkiri-cambodia/main_3-cptu-03a.jpg

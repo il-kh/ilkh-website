@@ -6,11 +6,8 @@ competencies:
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
   - serviceCluster: "design-planning"
-thumbnail: /images/services/geophysical-surveys/dummy_thumbnail.jpg
-gallery:
-  - /images/services/geophysical-surveys/dummy_01.jpg
-  - /images/services/geophysical-surveys/dummy_02.jpg
-  - /images/services/geophysical-surveys/dummy_03.jpg
+thumbnail: /images/services/geophysical-surveys/geophysical-surveys.png
+gallery: []
 ---
 
 Our Geophysical Surveys service provides advanced subsurface investigation solutions for engineering and environmental projects. Using state-of-the-art equipment like seismographs, ground-penetrating radar (GPR), and earth resistivity testers, we deliver precise data on soil properties, void detection, and utility mapping. With techniques such as seismic imaging, vibration monitoring, and resistivity testing, we ensure accurate site characterization and risk assessment. Supported by specialized software like GSSI Radan 7 and SeisImager, our surveys enable informed decision-making for foundations, infrastructure, and environmental studies.

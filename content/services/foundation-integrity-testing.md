@@ -5,17 +5,14 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/foundation-integrity-testing/dummy_thumbnail.jpg
-gallery:
-  - /images/services/foundation-integrity-testing/dummy_01.jpg
-  - /images/services/foundation-integrity-testing/dummy_02.jpg
-  - /images/services/foundation-integrity-testing/dummy_03.jpg
+thumbnail: /images/services/foundation-integrity-testing/foundation-integrity-testing.png
+gallery: []
 ---
 
 We provide comprehensive foundation integrity testing services using non-destructive testing methods to evaluate pile quality and continuity. Our low-strain integrity testing utilizes the Pile Integrity Tester (PIT) to identify defects, cracks, necking, and changes in pile cross-section by analyzing stress wave reflections. We perform crosshole sonic logging (CSL) on drilled shafts using the OYO Sonic Viewer to detect voids, soft zones, and concrete quality variations. Our thermal integrity profiling (TIP) monitors concrete temperature during curing to assess concrete placement quality. These testing methods provide quality assurance for deep foundations and identify potential construction defects before they compromise structural performance.
 
 ## Equipment
-- Pile Driving Analyzer
+- Pile Driving Analyzer (PDA)
   - 1 PDI model PAX pile driving analyzer
   - High strain dynamic load testing and pile driving monitoring system
   - Performs dynamic load testing on most types of deep foundations

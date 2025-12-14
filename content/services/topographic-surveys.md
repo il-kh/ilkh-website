@@ -5,11 +5,8 @@ competencies:
   - competency: "surveying-geo-information-systems"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: "/images/services/topographic-surveys/topo-main.jpg"
-gallery:
-  - image: "/images/services/topographic-surveys/at-airport.jpg"
-  - image: "/images/services/topographic-surveys/gridlines.jpg"
-  - image: "/images/services/topographic-surveys/irrigation.jpg"
+thumbnail: "/images/services/topographic-surveys/topographic-surveys.png"
+gallery: []
 ---
 
 Topographic surveys are a critical service we provide to support precise planning and execution of engineering projects. Using advanced GNSS equipment, total stations, and levels, we deliver accurate measurements for reference points, topographic mapping, set-outs, and settlement monitoring. Our team utilizes cutting-edge tools such as Trimble R8s, Sokkia CX101, and Trimble Business Center software to ensure high-quality data collection and processing. With expertise in static, post-processed kinematic, and real-time kinematic survey modes, we adapt to the unique needs of each project. Additionally, we leverage software like Agisoft Metashape and Pix4D for photogrammetry and 3D modeling, enhancing the precision of our deliverables. Whether it's surveying at airports, irrigation systems, or construction sites, our topographic surveys provide the foundation for informed decision-making.

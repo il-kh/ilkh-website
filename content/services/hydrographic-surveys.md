@@ -5,11 +5,8 @@ competencies:
   - competency: "surveying-geo-information-systems"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/hydrographic-surveys/dummy_thumbnail.jpg
-gallery:
-  - /images/services/hydrographic-surveys/dummy_01.jpg
-  - /images/services/hydrographic-surveys/dummy_02.jpg
-  - /images/services/hydrographic-surveys/dummy_03.jpg
+thumbnail: /images/services/hydrographic-surveys/hydrographic-surveys.png
+gallery: []
 ---
 
 Our hydrographic survey services map underwater topography and subsurface features for marine and inland water bodies. We utilize Kongsberg EA440 single beam echo sounder systems with multiple transducers for depth observations, side scan imaging, and sub-bottom profiling. Our 500 kHz side scan transducers provide high-resolution imaging of the seafloor, while lower frequency transducers enable deeper penetration for bathymetric surveys. We employ AML Oceanographic sound velocity probes to measure water column sound speed and provide accurate depth corrections. Our hydrographic surveys support dredging projects, marine structure design, navigation channel mapping, and underwater infrastructure inspections. We deliver accurate bathymetric data and subsurface profiles processed to international hydrographic standards.

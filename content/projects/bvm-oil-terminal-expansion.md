@@ -2,6 +2,9 @@
 title: BVM Oil Terminal Expansion
 competency: geotechnical-engineering
 serviceCluster: engineering-assessment
+services:
+  - service: "topographic-surveys"
+  - service: "cone-penetration-tests"
 thumbnail: /images/projects/bvm-oil-terminal-expansion/img20250715145149.jpg
 gallery:
   - image: /images/projects/bvm-oil-terminal-expansion/img20250715143639.jpg

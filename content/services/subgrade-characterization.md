@@ -5,11 +5,8 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/subgrade-characterization/dummy_thumbnail.jpg
-gallery:
-  - /images/services/subgrade-characterization/dummy_01.jpg
-  - /images/services/subgrade-characterization/dummy_02.jpg
-  - /images/services/subgrade-characterization/dummy_03.jpg
+thumbnail: /images/services/subgrade-characterization/subgrade-characterization.png
+gallery: []
 ---
 
 Our Subgrade Characterization service provides detailed insights into the strength, composition, and behavior of in-situ soils to support geotechnical engineering and construction projects. Using advanced equipment like dynamic cone penetrometers, sand cone density apparatus, and auger drills, we assess soil strength, density, and subsurface conditions with precision. These tests are essential for earthworks supervision, road construction, and foundation design, ensuring safe and cost-effective project execution. With adherence to ASTM and AASHTO standards, we deliver reliable data for informed decision-making and optimized engineering solutions.

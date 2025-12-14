@@ -4,11 +4,10 @@ import DateYear from '@/components/date-year'
 import type { MarkdownItem, CompetencyMetadata } from '@/components/md/utils'
 
 type ServiceItemProps = {
-  allCompetencies?: MarkdownItem<CompetencyMetadata>[];
   [key: string]: any;
 };
 
-export default function ServiceItem({ allCompetencies = [], ...props }: ServiceItemProps) {
+export default function ServiceItem({ ...props }: ServiceItemProps) {
 
   return (
     <article className="h-full flex flex-col space-y-5" data-aos="fade-up">

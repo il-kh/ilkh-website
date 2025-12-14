@@ -5,11 +5,8 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/soil-strength-assessment/dummy_thumbnail.jpg
-gallery:
-  - /images/services/soil-strength-assessment/dummy_01.jpg
-  - /images/services/soil-strength-assessment/dummy_02.jpg
-  - /images/services/soil-strength-assessment/dummy_03.jpg
+thumbnail: /images/services/soil-strength-assessment/soil-strength-assessment.png
+gallery: []
 ---
 
 Our Soil Strength Assessment service provides comprehensive evaluations of soil stability and load-bearing capacity for foundations, excavations, and infrastructure projects. Using advanced techniques like Field Vane Shear Tests and other geotechnical methods, we deliver precise data to ensure safe and efficient engineering solutions. This service is essential for optimizing foundation design, slope stability, and earthwork planning.

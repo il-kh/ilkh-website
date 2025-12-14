@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getProjects } from '@/components/md/utils'
+import { getProjects, getServices } from '@/components/md/utils'
 import { notFound } from 'next/navigation'
 import ProjectContent from '@/components/project-content'
 
@@ -18,6 +18,7 @@ export default async function SingleProject(
 ) {
   const params = await props.params;
   const project = getProjects().find((project) => project.slug === params.slug);
+  const allServices = getServices();
 
   if (!project) notFound();
 
@@ -47,5 +48,15 @@ export default async function SingleProject(
     ...(project.metadata.gallery?.map(item => item.image) || [])
   ].filter(Boolean);
 
-  return <ProjectContent project={project} implementationPeriod={implementationPeriod} allImages={allImages} />;
+  // Resolve metadata for services dynamically
+  const servicesWithMetadata = (project.metadata.services ?? []).map((service: { service: string }) => {
+    const fullService = allServices.find((s) => s.slug === service.service); // Match by `service`
+    return {
+      ...service,
+      slug: fullService?.slug, // Add the `slug` property explicitly
+      metadata: fullService?.metadata, // Attach metadata if found
+    };
+  });
+
+  return <ProjectContent project={project} implementationPeriod={implementationPeriod} allImages={allImages} servicesWithMetadata={servicesWithMetadata} />;
 }

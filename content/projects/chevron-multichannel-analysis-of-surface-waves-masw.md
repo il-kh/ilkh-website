@@ -2,6 +2,8 @@
 title: "Geophysical Investigations, Chevron Terminal, Sihanoukville, Cambodia"
 competency: "geotechnical-engineering"
 serviceCluster: "engineering-assessment"
+services:
+  - service: "geophysical-surveys"
 thumbnail: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/CrossSection.jpg"
 gallery:
   - image: "/images/projects/chevron-multichannel-analysis-of-surface-waves-masw/FieldWork.jpg"

@@ -6,11 +6,8 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/foundation-load-verification/dummy_thumbnail.jpg
-gallery:
-  - /images/services/foundation-load-verification/dummy_01.jpg
-  - /images/services/foundation-load-verification/dummy_02.jpg
-  - /images/services/foundation-load-verification/dummy_03.jpg
+thumbnail: /images/services/foundation-load-verification/foundation-load-verification.png
+gallery: []
 ---
 
 Our Foundation Load Verification service ensures the safety and reliability of foundations through precise testing and analysis. We assess the load-bearing capacity of soil and foundation elements using advanced techniques, including dynamic load testing, to verify performance under real-world conditions. This service is essential for optimizing foundation design, ensuring compliance with international standards, and minimizing construction risks. By delivering accurate and reliable results, we help clients achieve durable and cost-effective foundation solutions for their projects.

@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
-import { getCompetencies, getProjects } from '@/components/md/utils'
+import { getCompetencies, getProjects, getServices } from '@/components/md/utils'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { CustomMD } from '@/components/md/md'
 import ILBlueGradHero from '@/components/il-blue-grad-hero'
 import ProjectItem from '@/components/project-item'
+import ServiceItem from '@/components/service-item'
 
 export async function generateStaticParams() {
   const allCompetencies = getCompetencies();
@@ -47,10 +48,18 @@ export default async function SingleCompetency(
 
   const allCompetencies = getCompetencies();
   const allProjects = getProjects();
+  const allServices = getServices();
 
   // Filter projects for this competency by value (slug)
   const projectsForCompetency = allProjects.filter(
     (project) => project.metadata.competency === competency.metadata.value
+  );
+
+  // Filter services for this competency by value (slug)
+  const servicesForCompetency = allServices.filter((service) =>
+    service.metadata.competencies.some(
+      (service: { competency: string }) => service.competency === competency.metadata.value
+    )
   );
 
   return (
@@ -105,6 +114,27 @@ export default async function SingleCompetency(
                         />
                       ))}
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Services Section - Only show if there are services */}
+        {servicesForCompetency.length > 0 && (
+          <section>
+            <div className="max-w-6xl mx-auto px-4 sm:px-6">
+              <div className="py-8 md:py-16">
+                <h2 className="headline headline-h1 text-center md:text-left mb-8">
+                  Related Service-Lines
+                </h2>
+                <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                  {servicesForCompetency.map((service) => (
+                    <ServiceItem 
+                      key={service.slug} 
+                      {...service}
+                    />
+                  ))}
                 </div>
               </div>
             </div>

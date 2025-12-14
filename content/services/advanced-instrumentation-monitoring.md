@@ -5,11 +5,8 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/advanced-instrumentation-monitoring/dummy_thumbnail.jpg
-gallery:
-  - /images/services/advanced-instrumentation-monitoring/dummy_01.jpg
-  - /images/services/advanced-instrumentation-monitoring/dummy_02.jpg
-  - /images/services/advanced-instrumentation-monitoring/dummy_03.jpg
+thumbnail: /images/services/advanced-instrumentation-monitoring/advanced-instrumentation-monitoring.png
+gallery: []
 ---
 
 Our Advanced Load Instrumentation & Monitoring service provides precise measurement and monitoring solutions for structural loads, deformations, and forces in civil engineering projects. Using state-of-the-art equipment such as load cells, strain gauges, hydraulic cylinders, and dial gauges, we ensure accurate data collection for applications like pile load tests, excavation bracing, and tunnel support monitoring. This service is essential for assessing structural performance, ensuring safety, and optimizing designs in complex engineering environments. With reliable instrumentation and expert analysis, we deliver actionable insights to support informed decision-making and project success.

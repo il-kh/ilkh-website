@@ -5,11 +5,8 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/structural-material-integrity/dummy_thumbnail.jpg
-gallery:
-  - /images/services/structural-material-integrity/dummy_01.jpg
-  - /images/services/structural-material-integrity/dummy_02.jpg
-  - /images/services/structural-material-integrity/dummy_03.jpg
+thumbnail: /images/services/structural-material-integrity/structural-material-integrity.png
+gallery: []
 ---
 
 Our Structural and Material Integrity service ensures the safety, durability, and performance of structures through advanced testing and analysis. We use both non-destructive testing (NDT) and destructive testing (DT) methods to evaluate concrete, steel, and other materials for defects, strength, and compliance with international standards. From ultrasonic testing and rebar detection to pull-off testing and core drilling, our comprehensive assessments provide accurate insights into structural health. This service is essential for quality assurance, renovation projects, and long-term structural reliability.
@@ -61,6 +58,7 @@ Our Structural and Material Integrity service ensures the safety, durability, an
   - 1 Concrete Encounter Tramex CME4
   - Determine the moisture content of concrete
   - ASTM F2659
+
 **Destructive Testing (DT)**
 - Pull-Off Testing
   - 1 Proceq DY-216 automated pull-off tester
@@ -72,6 +70,7 @@ Our Structural and Material Integrity service ensures the safety, durability, an
   - 1 HILTI model DD-160 diamond coring machine with accessories
   - For rig-based concrete coring from 25-202 mm in diameter
   - 40cm height coring
+  
 **Materials Testing & Quality Control**
 - Moisture Content, Wood
   - 1 Mini-Ligno ED moisture meter

@@ -2,6 +2,11 @@
 title: "Residence 90, Phnom Penh, Cambodia"
 competency: "integrated-building-design"
 serviceCluster: "design-planning"
+services:
+  - service: "civil-design-engineering"
+  - service: "structural-engineering-design"
+  - service: "hydrology-studies"
+  - service: "road-design"
 thumbnail: "/images/projects/residence-90/Residence-90.jpg"
 gallery:
   - image: "/images/projects/residence-90/P-twin.JPG"

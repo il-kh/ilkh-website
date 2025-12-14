@@ -66,6 +66,7 @@ export function getServiceClusters() {
 // For services
 export type ServiceMetadata = {
   title: string;
+  value: string;
   competency?: string;
   serviceCluster?: string;
   thumbnail: string;

@@ -1,7 +1,10 @@
 ---
 title: "Techo International Airport, Kandal Province, Cambodia"
 competency: "surveying-geo-information-systems"
-serviceCluster: "environmental-geospatial"
+serviceCluster: "digital-design-analysis"
+services:
+  - service: "building-surveys"
+  - service: "bim-3d-modeling"
 thumbnail: "/images/projects/lbl-techo-international-airport-3d-laser-scan/1.jpg"
 gallery:
   - image: "/images/projects/lbl-techo-international-airport-3d-laser-scan/05_NorthwestPier_Raw.jpg"

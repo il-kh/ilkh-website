@@ -2,6 +2,11 @@
 title: "T Galleria Store, DFS Group, Siem Reap, Cambodia"
 competency: "structural-engineering-building-assessment"
 serviceCluster: "engineering-assessment"
+services:
+  - service: "structural-material-integrity"
+  - service: "geophysical-surveys"
+  - service: "foundation-integrity-testing"
+  - service: "cone-penetration-tests"
 thumbnail: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"
 gallery:
   - image: "/images/projects/dfs-group-t-galleria-store/Escalator-3.jpg"

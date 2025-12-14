@@ -2,6 +2,24 @@
 title: Rural Infrastructure Development for Cambodia RID4CAM
 competency: infrastructure-environment
 serviceCluster: design-planning
+services:
+  - service: "conceptual-feasibility-studies"
+  - service: "hydrology-studies"
+  - service: "traffic-studies"
+  - service: "road-design"
+  - service: "civil-design-engineering"
+  - service: "structural-engineering-design"
+  - service: "asset-management-systems"
+  - service: "gis-mapping-analysis"
+  - service: "foundation-load-verification"
+  - service: "tender-contract-documents"
+  - service: "construction-management"
+  - service: "construction-site-supervision"
+  - service: "socio-economic-impact-analysis"
+  - service: "environmental-testing"
+  - service: "environmental-social-safeguarding"
+  - service: "topographic-surveys"
+  - service: "geotechnical-design-calculations"
 thumbnail: /images/projects/rural-infrastructure-development-for-cambodia-rid4cam/r.jpg
 gallery:
   - image: /images/projects/rid4cam/Picture1.jpg

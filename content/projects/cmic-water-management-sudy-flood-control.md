@@ -2,6 +2,9 @@
 title: "CMIC Cement Plant in Kampot Province, Cambodia"
 competency: "infrastructure-environment"
 serviceCluster: "engineering-assessment"
+services:
+  - service: "hydrology-studies"
+  - service: "civil-design-engineering"
 thumbnail: "/images/projects/cmic-water-management-sudy-flood-control/2_CMIC.jpg"
 gallery:
   - image: "/images/projects/cmic-water-management-sudy-flood-control/1_CMIC.jpg"

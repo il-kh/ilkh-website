@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
-import { getServiceClusters, getProjects } from '@/components/md/utils'
+import { getServiceClusters, getProjects, getServices } from '@/components/md/utils'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { CustomMD } from '@/components/md/md'
 import ILBlueGradHero from '@/components/il-blue-grad-hero'
 import ProjectItem from '@/components/project-item'
+import ServiceItem from '@/components/service-item'
 
 export async function generateStaticParams() {
   const allServiceClusters = getServiceClusters();
@@ -45,13 +46,21 @@ export default async function SingleServiceCluster(
 
   if (!servicecluster) notFound();
 
-    const allCompetencies = getServiceClusters();
-    const allProjects = getProjects();
+  const allCompetencies = getServiceClusters();
+  const allProjects = getProjects();
+  const allServices = getServices();
 
-    // Filter projects for this service cluster by value (slug)
-    const projectsForServiceCluster = allProjects.filter(
-      (project) => project.metadata.serviceCluster === servicecluster.metadata.value
-    );
+  // Filter projects for this service cluster by value (slug)
+  const projectsForServiceCluster = allProjects.filter(
+    (project) => project.metadata.serviceCluster === servicecluster.metadata.value
+  );
+
+  // Filter services for this service cluster by value (slug)
+  const servicesForServiceCluster = allServices.filter((service) =>
+    service.metadata.serviceClusters.some(
+      (cluster: { serviceCluster: string }) => cluster.serviceCluster === servicecluster.metadata.value
+    )
+  );
 
   return (
     <>
@@ -79,6 +88,27 @@ export default async function SingleServiceCluster(
         </div>
       </section>
 
+      {/* Services Section - Only show if there are services */}
+      {servicesForServiceCluster.length > 0 && (
+        <section>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="py-8 md:py-16">
+              <h2 className="headline headline-h1 text-center md:text-left mb-8">
+                Related Service-Lines
+              </h2>
+              <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                {servicesForServiceCluster.map((service) => (
+                  <ServiceItem 
+                    key={service.slug} 
+                    {...service}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Projects Section - Only show if there are projects */}
       {projectsForServiceCluster.length > 0 && (
         <section className="bg-slate-50">
@@ -92,24 +122,24 @@ export default async function SingleServiceCluster(
                   {projectsForServiceCluster
                     .sort((a, b) => {
                       // Sort by dateStart in descending order (most recent first)
-                        const dateA = new Date(String(a.metadata.dateStart));
-                        const dateB = new Date(String(b.metadata.dateStart));
-                        return dateA > dateB ? -1 : 1;
-                      })
-                      .slice(0, 3) // Take only the first 3 projects
-                      .map((project) => (
-                        <ProjectItem 
-                          key={project.slug} 
-                          {...project} 
-                          allCompetencies={allCompetencies}
-                        />
-                      ))}
-                  </div>
+                      const dateA = new Date(String(a.metadata.dateStart));
+                      const dateB = new Date(String(b.metadata.dateStart));
+                      return dateA > dateB ? -1 : 1;
+                    })
+                    .slice(0, 3) // Take only the first 3 projects
+                    .map((project) => (
+                      <ProjectItem 
+                        key={project.slug} 
+                        {...project} 
+                        allCompetencies={allCompetencies}
+                      />
+                    ))}
                 </div>
               </div>
             </div>
-          </section>
-        )}
+          </div>
+        </section>
+      )}
     </>
   )
 }
