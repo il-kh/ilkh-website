@@ -118,22 +118,28 @@ collections:
     public_folder: "/images/projects/{{slug}}"
     fields:
       - { name: "title", label: "Project Title", widget: "string", required: true }
-      - name: "competency"
-        label: "Competency"
-        widget: "relation"
-        collection: "competencies"
-        search_fields: ["title"]
-        value_field: "value"
-        display_fields: ["title"]
-        required: true
-      - name: "serviceCluster"
-        label: "Service Cluster"
-        widget: "relation"
-        collection: "service-clusters"
-        search_fields: ["title"]
-        value_field: "value"
-        display_fields: ["title"]
-        required: true
+      - name: "competencies"
+        label: "Competencies"
+        widget: "list"
+        fields:
+          - name: "competency"
+            label: "Competency"
+            widget: "relation"
+            collection: "competencies"
+            search_fields: ["title"]
+            value_field: "value"
+            display_fields: ["title"]
+      - name: "serviceClusters"
+        label: "Service Clusters"
+        widget: "list"
+        fields:
+          - name: "serviceCluster"
+            label: "Service Cluster"
+            widget: "relation"
+            collection: "service-clusters"
+            search_fields: ["title"]
+            value_field: "value"
+            display_fields: ["title"]
       - name: "services"
         label: "Services"
         widget: "list"

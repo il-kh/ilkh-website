@@ -1,7 +1,9 @@
 ---
 title: BRED Bank Cambodia, Phnom Penh, Cambodia
-competency: structural-engineering-building-assessment
-serviceCluster: design-planning
+competencies: 
+  - competency: "structural-engineering-building-assessment"
+serviceClusters: 
+  - serviceCluster: "design-planning"
 services:
   - service: "structural-material-integrity"
   - service: "soil-strength-assessment"

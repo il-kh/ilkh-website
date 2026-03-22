@@ -1,7 +1,9 @@
 ---
 title: "Rural Infrastructure Development Programme for Cambodia"
-competency: "infrastructure-environment"
-serviceCluster: "design-planning"
+competencies: 
+  - competency: "infrastructure-environment"
+serviceClusters: 
+  - serviceCluster: "design-planning"
 services:
   - service: "conceptual-feasibility-studies"
   - service: "hydrology-studies"

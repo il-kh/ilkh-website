@@ -1,7 +1,9 @@
 ---
 title: "ACLEDA Bank Extension, Phnom Penh, Cambodia"
-competency: "integrated-building-design"
-serviceCluster: "design-planning"
+competencies: 
+  - competency: "integrated-building-design"
+serviceClusters: 
+  - serviceCluster: "design-planning"
 services:
   - service: "conceptual-feasibility-studies"
   - service: "structural-engineering-design"

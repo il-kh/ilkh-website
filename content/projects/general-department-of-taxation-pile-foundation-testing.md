@@ -1,7 +1,9 @@
 ---
 title: "General Department of Taxation, Phnom Penh, Cambodia"
-competency: "structural-engineering-building-assessment"
-serviceCluster: "engineering-assessment"
+competencies:
+  - competency: "structural-engineering-building-assessment"
+serviceClusters:
+  - serviceCluster: "engineering-assessment"
 services:
   - service: "foundation-integrity-testing"
 thumbnail: "/images/projects/general-department-of-taxation-pile-foundation-testing/2-PDA.jpg"

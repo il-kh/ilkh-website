@@ -1,7 +1,9 @@
 ---
 title: Chevron Terminal, Sihanoukville, Cambodia
-competency: surveying-geo-information-systems
-serviceCluster: environmental-geospatial
+competencies:
+  - competency: "surveying-geo-information-systems"
+serviceClusters:
+  - serviceCluster: "environmental-geospatial"
 services:
   - service: "topographic-surveys"
 thumbnail: /images/projects/chevron-topo-survey/IMG_7534.JPG

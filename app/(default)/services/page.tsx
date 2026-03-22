@@ -29,7 +29,7 @@ export default function Services() {
             {sortedCompetencies.map((competency) => {
               // Filter services for this competency by value (slug)
               const servicesForCompetency = allServices.filter(
-                (service) => service.metadata.competency === competency.metadata.value
+                (service) => service.metadata.competencies?.some(c => c.competency === competency.metadata.value)
               );
               if (servicesForCompetency.length === 0) return null;
               return (

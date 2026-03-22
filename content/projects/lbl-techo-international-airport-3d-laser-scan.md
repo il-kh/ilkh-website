@@ -1,7 +1,9 @@
 ---
 title: "Techo International Airport, Kandal Province, Cambodia"
-competency: "surveying-geo-information-systems"
-serviceCluster: "digital-design-analysis"
+competencies:
+  - competency: "surveying-geo-information-systems"
+serviceClusters:
+  - serviceCluster: "digital-design-analysis"
 services:
   - service: "building-surveys"
   - service: "bim-3d-modeling"

@@ -1,7 +1,9 @@
 ---
 title: "Bakheng Water Treatment Plant, Phnom Penh, Cambodia"
-competency: "geotechnical-engineering"
-serviceCluster: "geotechnical-field-tests"
+competencies:
+  - competency: "geotechnical-engineering"
+serviceClusters:
+  - serviceCluster: "geotechnical-field-tests"
 services:
   - service: "cone-penetration-tests"
   - service: "subgrade-characterization"

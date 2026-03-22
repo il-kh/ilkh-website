@@ -64,7 +64,7 @@ export default function Projects() {
                 <p className="subline-large grow">{featuredProject.metadata.summary}</p>
                 <footer className="flex items-center mt-4">
                   <div>
-                    <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.competency}</a>
+                    <a className="subline hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{featuredProject.metadata.competencies?.[0]?.competency}</a>
                     <span className="subline"> &#40; </span>
                     <span className="subline">
                       <DateYear dateString={String(featuredProject.metadata.dateStart)} />
@@ -112,7 +112,7 @@ export default function Projects() {
             {sortedCompetencies.map((competency) => {
               // Filter projects for this competency by value (slug)
               const projectsForCompetency = allProjects.filter(
-                (project) => project.metadata.competency === competency.metadata.value
+                (project) => project.metadata.competencies?.some(c => c.competency === competency.metadata.value)
               );
               if (projectsForCompetency.length === 0) return null;
               return (

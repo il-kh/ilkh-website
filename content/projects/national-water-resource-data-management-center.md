@@ -1,7 +1,9 @@
 ---
 title: "National Water Resource Data Management Center, Phnom Penh, Cambodia"
-competency: "integrated-building-design"
-serviceCluster: "design-planning"
+competencies:
+  - competency: "integrated-building-design"
+serviceClusters:
+  - serviceCluster: "design-planning"
 services:
   - service: "civil-design-engineering"
   - service: "structural-engineering-design"

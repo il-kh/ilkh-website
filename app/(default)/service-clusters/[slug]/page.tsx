@@ -52,12 +52,12 @@ export default async function SingleServiceCluster(
 
   // Filter projects for this service cluster by value (slug)
   const projectsForServiceCluster = allProjects.filter(
-    (project) => project.metadata.serviceCluster === servicecluster.metadata.value
+    (project) => project.metadata.serviceClusters?.some(c => c.serviceCluster === servicecluster.metadata.value)
   );
 
   // Filter services for this service cluster by value (slug)
   const servicesForServiceCluster = allServices.filter((service) =>
-    service.metadata.serviceClusters.some(
+    service.metadata.serviceClusters?.some(
       (cluster: { serviceCluster: string }) => cluster.serviceCluster === servicecluster.metadata.value
     )
   );

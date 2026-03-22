@@ -67,8 +67,8 @@ export function getServiceClusters() {
 export type ServiceMetadata = {
   title: string;
   value: string;
-  competency?: string;
-  serviceCluster?: string;
+  competencies?: { competency: string }[];
+  serviceClusters?: { serviceCluster: string }[];
   thumbnail: string;
   gallery?: { image: string }[];
   body: string;
@@ -82,9 +82,9 @@ export function getServices() {
 // For projects
 export type ProjectMetadata = {
   title: string;
-  competency?: string;
-  serviceCluster?: string;
-  service?: { service: string }[];
+  competencies?: { competency: string }[];
+  serviceClusters?: { serviceCluster: string }[];
+  services?: { service: string }[];
   thumbnail: string;
   gallery?: { image: string }[];
   isShowcase?: boolean;

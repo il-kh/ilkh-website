@@ -52,12 +52,12 @@ export default async function SingleCompetency(
 
   // Filter projects for this competency by value (slug)
   const projectsForCompetency = allProjects.filter(
-    (project) => project.metadata.competency === competency.metadata.value
+    (project) => project.metadata.competencies?.some(c => c.competency === competency.metadata.value)
   );
 
   // Filter services for this competency by value (slug)
   const servicesForCompetency = allServices.filter((service) =>
-    service.metadata.competencies.some(
+    service.metadata.competencies?.some(
       (service: { competency: string }) => service.competency === competency.metadata.value
     )
   );
