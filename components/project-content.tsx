@@ -5,23 +5,16 @@ import Image from 'next/image';
 import { CustomMD } from '@/components/md/md';
 import ProjectSingleHero from '@/components/project-single-hero';
 import Link from 'next/link';
+import type { MarkdownItem, ProjectMetadata, ServiceMetadata } from '@/components/md/utils';
 
 interface Service {
   slug: string;
-  metadata?: {
-    title: string;
-  };
+  service: string;
+  metadata?: ServiceMetadata;
 }
 
 export default function ProjectContent({ project, implementationPeriod, allImages, servicesWithMetadata }: {
-  project: {
-    metadata: {
-      title: string;
-      thumbnail: string;
-      services?: Service[];
-    };
-    content: string;
-  };
+  project: MarkdownItem<ProjectMetadata>;
   implementationPeriod: string;
   allImages: string[];
   servicesWithMetadata: Service[];

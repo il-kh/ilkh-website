@@ -49,14 +49,17 @@ export default async function SingleProject(
   ].filter(Boolean);
 
   // Resolve metadata for services dynamically
-  const servicesWithMetadata = (project.metadata.services ?? []).map((service: { service: string }) => {
-    const fullService = allServices.find((s) => s.slug === service.service); // Match by `service`
-    return {
-      ...service,
-      slug: fullService?.slug, // Add the `slug` property explicitly
-      metadata: fullService?.metadata, // Attach metadata if found
-    };
-  });
+  const servicesWithMetadata = (project.metadata.services ?? [])
+    .map((service: { service: string }) => {
+      const fullService = allServices.find((s) => s.slug === service.service);
+      if (!fullService) return null;
+      return {
+        ...service,
+        slug: fullService.slug,
+        metadata: fullService.metadata,
+      };
+    })
+    .filter((s): s is NonNullable<typeof s> => s !== null);
 
   return <ProjectContent project={project} implementationPeriod={implementationPeriod} allImages={allImages} servicesWithMetadata={servicesWithMetadata} />;
 }
