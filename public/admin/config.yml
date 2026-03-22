@@ -1,12 +1,14 @@
-# Use DecapBridge auth (required)
 backend:
   name: git-gateway
-  repo: dangeol/ilkh-website
+  repo: il-kh/ilkh-website
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/4fda528a-888b-4750-a948-ca8a6713359b
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/9b51d9b5-1278-4f89-9f42-f5aadefb2856/pkce
+  auth_token_endpoint: /sites/9b51d9b5-1278-4f89-9f42-f5aadefb2856/token
   gateway_url: https://gateway.decapbridge.com
 
-  # Quickly see who did what (optional)
+  # See who did what (optional)
   commit_messages:
     create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
     update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
@@ -18,7 +20,7 @@ backend:
 # Better Decap + Bridge logo (optional)
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
-# Add site links in DecapCMS (optional)
+# Add site links in Decap CMS (optional)
 site_url: https://inros-lackner.com.kh
 
 # Required media settings
