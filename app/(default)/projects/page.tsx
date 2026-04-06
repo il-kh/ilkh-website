@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import ProjectsHero from '@/components/projects-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 import Tags from '@/components/project-tags'
 
 export default function Projects() {
@@ -34,7 +34,12 @@ export default function Projects() {
 
   return (
     <>
-      <ProjectsHero />
+      <IlkhHeroBlueGrad
+        headline="Our Projects"
+        subline="Explore our diverse range of projects that showcase our expertise and commitment to excellence."
+        hrefText='Back to Home'
+        hrefValue='/'
+      />
       <Tags />
 
       {/* Featured project */}

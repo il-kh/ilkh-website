@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { CustomMD } from '@/components/md/md'
-import ServiceSingleHero from '@/components/service-single-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 
 export default function ServiceContent({ service, allImages }: {
   service: any;
@@ -13,9 +13,11 @@ export default function ServiceContent({ service, allImages }: {
 
   return (
     <>
-      <ServiceSingleHero
+      <IlkhHeroBlueGrad
         headline={service.metadata.title}
         subline=""
+        hrefText='Back to Services'
+        hrefValue='/services'
       />
       <section>
         {/* Large image */}

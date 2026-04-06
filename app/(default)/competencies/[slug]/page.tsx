@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { CustomMD } from '@/components/md/md'
-import ILBlueGradHero from '@/components/il-blue-grad-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 import ProjectItem from '@/components/project-item'
 import ServiceItem from '@/components/service-item'
 
@@ -64,9 +64,11 @@ export default async function SingleCompetency(
 
   return (
     <>
-      <ILBlueGradHero
+      <IlkhHeroBlueGrad
         headline={competency.metadata.title}
         subline={competency.metadata.subline}
+        hrefText='Back to Competecies'
+        hrefValue='/competencies'
       />
       <section>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 md:pt-24 pb-8">

@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import Ilkh from '@/components/ilkh-about'
+import IlkhHeroCompany from '@/components/ilkh-hero-company'
 import Stats from '@/components/stats'
 import Content from './content'
 import TeamAndLocations from '@/components/team'
@@ -11,7 +11,7 @@ import TeamAndLocations from '@/components/team'
 export default function About() {
   return (
     <>
-      <Ilkh />
+      <IlkhHeroCompany />
       <Stats />
       <Content />
       <TeamAndLocations />

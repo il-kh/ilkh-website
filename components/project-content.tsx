@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { CustomMD } from '@/components/md/md';
-import ProjectSingleHero from '@/components/project-single-hero';
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad';
 import Link from 'next/link';
 import type { MarkdownItem, ProjectMetadata, ServiceMetadata } from '@/components/md/utils';
 
@@ -23,9 +23,11 @@ export default function ProjectContent({ project, implementationPeriod, allImage
 
   return (
     <>
-      <ProjectSingleHero
+      <IlkhHeroBlueGrad
         headline={project.metadata.title}
         subline={implementationPeriod}
+        hrefText='Back to Projects'
+        hrefValue='/projects'
       />
       <section>
         {/* Large image */}

@@ -12,7 +12,6 @@ services:
   - service: "civil-design-engineering"
   - service: "structural-engineering-design"
   - service: "asset-management-systems"
-  - service: "road-design"
   - service: "gis-mapping-analysis"
   - service: "foundation-load-verification"
   - service: "tender-contract-documents"

@@ -9,7 +9,7 @@ const images = [
   '/images/hero_03.jpg',
 ]
 
-export default function ilkhHero01() {
+export default function ilkhHeroMain() {
   const [index, setIndex] = useState(0)
 
   useEffect(() => {

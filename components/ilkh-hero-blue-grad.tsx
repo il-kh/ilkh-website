@@ -1,11 +1,15 @@
 import Link from "next/link";
 
-export default function ProjectSingleHero({
+export default function IlkhHeroBlueGrad({
   headline,
   subline,
+  hrefText,
+  hrefValue,
 }: {
   headline: string;
   subline: string;
+  hrefText: string;
+  hrefValue: string;
 }) {
   return (
     <section className="relative">
@@ -23,13 +27,13 @@ export default function ProjectSingleHero({
           <div className="max-w-3xl mx-auto text-center">
             <Link
               className="inline-flex font-semibold text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out group mb-2"
-              href="/projects"
+              href={hrefValue}
               data-aos="fade-down"
             >
               <span className="tracking-normal text-gray-400 group-hover:text-gray-200 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">
                 &lt;-
               </span>
-              Back to Projects
+              {hrefText}
             </Link>
             <h1 className="headline headline-h1-light mb-4">{headline}</h1>
             <p className="subline subline-h2-light mb-8">{subline}</p>

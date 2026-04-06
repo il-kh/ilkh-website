@@ -3,16 +3,18 @@ export const metadata = {
   description: 'Page description',
 }
 
-import ILBlueGradHero from '@/components/il-blue-grad-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 import Content from './content'
 
 export default function Partners() {
 
   return (
     <>
-      <ILBlueGradHero
+      <IlkhHeroBlueGrad
         headline="Our Partners"
         subline="Partnerships that add value to every project."
+        hrefText='Back to Home'
+        hrefValue='/'
       />
 
       <section>

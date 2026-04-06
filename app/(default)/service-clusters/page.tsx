@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import ILBlueGradHero from '@/components/il-blue-grad-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 import ServiceClusterItem from '@/components/servicecluster-item';
 import { getServiceClusters } from '@/components/md/utils'
 
@@ -17,9 +17,11 @@ export default function ServiceClusters() {
 
   return (
     <>
-      <ILBlueGradHero
+      <IlkhHeroBlueGrad
         headline="Our Services"
         subline="Practical Engineering Skills That Drive Reliable, Cost-Effective Solutions."
+        hrefText='Back to Home'
+        hrefValue='/'
       />
 
       <section>

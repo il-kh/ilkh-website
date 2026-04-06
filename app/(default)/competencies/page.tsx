@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Page description',
 }
 
-import ILBlueGradHero from '@/components/il-blue-grad-hero'
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'
 import CompetencyItem from '@/components/competency-item';
 import { getCompetencies } from '@/components/md/utils'
 
@@ -12,9 +12,11 @@ export default function Competencies() {
 
   return (
     <>
-      <ILBlueGradHero
+      <IlkhHeroBlueGrad
         headline="Our Competencies"
         subline="Practical Engineering Skills That Drive Reliable, Cost-Effective Solutions."
+        hrefText='Back to Home'
+        hrefValue='/'
       />
 
       <section>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import ilkhImage from '@/public/images/about-ilkh.jpg'
 import TeamImage from '@/public/images/ilkh-team-01.jpg'
 
-export default function ilkhAbout() {  
+export default function ilkhHeroCompany() {  
   return (
     <section className="relative">
 

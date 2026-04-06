@@ -1,6 +1,6 @@
 import { getCompetencies, getServices } from '@/components/md/utils'
 import ServiceItem from '@/components/service-item'
-import ServicesHero from '@/components/services-hero';
+import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad';
 
 export const metadata = {
   title: 'Services - ILKH',
@@ -18,7 +18,12 @@ export default function Services() {
 
   return (
     <>
-      <ServicesHero />
+      <IlkhHeroBlueGrad
+        headline="Our Services"
+        subline="Discover the wide range of services we offer to meet your needs."
+        hrefText='Back to Home'
+        hrefValue='/'
+      />
 
       {/* All Services */}
       <section className="bg-slate-50">
