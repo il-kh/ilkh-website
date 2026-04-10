@@ -1,3 +1,5 @@
+import fs from 'fs'
+import path from 'path'
 import { MetadataRoute } from 'next'
 import {
   getCompetencies,
@@ -9,6 +11,16 @@ import {
 export const dynamic = 'force-static'
 
 const BASE_URL = 'https://inros-lackner.com.kh'
+
+/** Returns the filesystem mtime of a content file, falling back to now. */
+function fileMtime(folder: string, slug: string): string {
+  try {
+    const filePath = path.join(process.cwd(), folder, `${slug}.md`)
+    return fs.statSync(filePath).mtime.toISOString()
+  } catch {
+    return new Date().toISOString()
+  }
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString()
@@ -28,32 +40,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${BASE_URL}/competencies/${item.slug}/`,
     priority: 0.8,
     changeFrequency: 'monthly',
-    lastModified: now,
+    lastModified: fileMtime('content/competencies', item.slug),
   }))
 
   const serviceClusterRoutes: MetadataRoute.Sitemap = getServiceClusters().map((item) => ({
     url: `${BASE_URL}/service-clusters/${item.slug}/`,
     priority: 0.7,
     changeFrequency: 'monthly',
-    lastModified: now,
+    lastModified: fileMtime('content/service-clusters', item.slug),
   }))
 
   const serviceRoutes: MetadataRoute.Sitemap = getServices().map((item) => ({
     url: `${BASE_URL}/services/${item.slug}/`,
     priority: 0.7,
     changeFrequency: 'monthly',
-    lastModified: now,
+    lastModified: fileMtime('content/services', item.slug),
   }))
 
   const projectRoutes: MetadataRoute.Sitemap = getProjects().map((item) => ({
     url: `${BASE_URL}/projects/${item.slug}/`,
     priority: 0.65,
     changeFrequency: 'monthly',
-    lastModified: item.metadata.dateEnd
-      ? new Date(String(item.metadata.dateEnd)).toISOString()
-      : item.metadata.dateStart
-        ? new Date(String(item.metadata.dateStart)).toISOString()
-        : now,
+    lastModified: fileMtime('content/projects', item.slug),
   }))
 
   return [
