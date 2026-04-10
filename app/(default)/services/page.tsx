@@ -3,8 +3,11 @@ import ServiceItem from '@/components/service-item'
 import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad';
 
 export const metadata = {
-  title: 'Services - ILKH',
-  description: 'Page description',
+  title: 'Engineering Services in Cambodia',
+  description: 'Browse all engineering services offered by ILKH in Cambodia: civil engineering, topographic surveys, geotechnical investigations, structural design, BIM, construction supervision, environmental studies, GIS mapping, and more.',
+  alternates: {
+    canonical: '/services/',
+  },
 }
 
 export default function Services() {

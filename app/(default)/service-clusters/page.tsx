@@ -1,6 +1,9 @@
 export const metadata = {
-  title: 'Services - ILKH',
-  description: 'Page description',
+  title: 'Service Clusters',
+  description: 'Discover how ILKH organises its engineering services in Cambodia into focused clusters: design & planning, geotechnical field tests, digital design & analysis, engineering assessment, construction support, and environmental & geospatial services.',
+  alternates: {
+    canonical: '/service-clusters/',
+  },
 }
 
 import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'

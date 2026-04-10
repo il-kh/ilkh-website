@@ -5,8 +5,11 @@ import DateYear from '@/components/date-year'
 import ProjectItem from '@/components/project-item'
 
 export const metadata = {
-  title: 'Projects - ILKH',
-  description: 'Page description',
+  title: 'Engineering Projects in Cambodia',
+  description: 'View selected engineering projects delivered by ILKH in Cambodia, including geotechnical surveys, structural assessments, BIM modelling, infrastructure design, and construction supervision across Phnom Penh and the wider region.',
+  alternates: {
+    canonical: '/projects/',
+  },
 }
 
 import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'

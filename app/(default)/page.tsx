@@ -1,6 +1,9 @@
 export const metadata = {
-  title: 'Home - Inros Lackner Cambodia',
-  description: 'Page description',
+  title: 'Engineering Consultancy in Cambodia',
+  description: 'Inros Lackner Cambodia (ILKH) delivers multi-disciplinary engineering services in Cambodia: civil engineering, structural engineering, geotechnical investigations, topographic surveys, BIM, construction supervision, and infrastructure planning.',
+  alternates: {
+    canonical: '/',
+  },
 }
 
 import IlkhHeroMain from '@/components/ilkh-hero-main'

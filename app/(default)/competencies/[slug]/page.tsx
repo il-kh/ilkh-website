@@ -28,11 +28,21 @@ export async function generateMetadata(
     return;
   }
 
-  const { title, subline: description } = competency.metadata;
+  const { title, subline, image } = competency.metadata;
+  const description = `${subline} – Inros Lackner Cambodia offers professional ${title} services in Cambodia. Learn about our approach, expertise, and related projects.`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: `/competencies/${params.slug}/`,
+    },
+    openGraph: {
+      title: `${title} | Inros Lackner Cambodia`,
+      description,
+      url: `https://inros-lackner.com.kh/competencies/${params.slug}/`,
+      images: image ? [{ url: image, alt: title }] : undefined,
+    },
   };
 }
 

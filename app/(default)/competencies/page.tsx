@@ -1,6 +1,9 @@
 export const metadata = {
-  title: 'Competencies - ILKH',
-  description: 'Page description',
+  title: 'Engineering Competencies',
+  description: 'Explore our core engineering competencies in Cambodia: structural engineering, geotechnical engineering, surveying & GIS, integrated building design, infrastructure & environment, and project management & construction supervision.',
+  alternates: {
+    canonical: '/competencies/',
+  },
 }
 
 import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'

@@ -56,9 +56,9 @@ export default function ilkhHeroMain() {
               </div>
               {/* Slogans layered on top, at the right side of the carousel */}
               <div className="absolute top-0 right-0 h-full flex flex-col justify-center items-start pl-8 min-w-[320px] z-10 pointer-events-none">
-                <p className="slogan-1 drop-shadow-lg mb-4">
+                <h1 className="slogan-1 drop-shadow-lg mb-4">
                   Local expertise and international <br /> engineering know-how.
-                </p>
+                </h1>
                 <p className="slogan-2 drop-shadow-lg">
                   Built environment for Cambodia.
                 </p>

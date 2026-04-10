@@ -1,6 +1,9 @@
 export const metadata = {
-  title: 'Competencies - ILKH',
-  description: 'Page description',
+  title: 'Our Partners',
+  description: 'ILKH works with trusted local and international partners to deliver high-quality engineering projects across Cambodia. Explore our strategic partnerships in infrastructure, building design, and environmental services.',
+  alternates: {
+    canonical: '/partners/',
+  },
 }
 
 import IlkhHeroBlueGrad from '@/components/ilkh-hero-blue-grad'

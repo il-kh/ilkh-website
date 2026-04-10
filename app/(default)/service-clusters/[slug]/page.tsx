@@ -28,11 +28,20 @@ export async function generateMetadata(
     return;
   }
 
-  const { title, summary: description } = servicecluster.metadata;
+  const { title, summary, image } = servicecluster.metadata;
 
   return {
     title,
-    description,
+    description: summary,
+    alternates: {
+      canonical: `/service-clusters/${params.slug}/`,
+    },
+    openGraph: {
+      title: `${title} | Inros Lackner Cambodia`,
+      description: summary,
+      url: `https://inros-lackner.com.kh/service-clusters/${params.slug}/`,
+      images: image ? [{ url: image, alt: title }] : undefined,
+    },
   };
 }
 

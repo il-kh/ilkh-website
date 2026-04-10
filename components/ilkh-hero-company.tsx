@@ -18,7 +18,7 @@ export default function ilkhHeroCompany() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-16">
-            <h1 className="headline headline-h1-light">We combine local expertise and international engineering know-how.</h1>
+            <h1 className="headline headline-h1-light">We combine local expertise and international civil engineering know-how.</h1>
           </div>
 
           {/* ilkh image */}
