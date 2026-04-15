@@ -12,8 +12,8 @@ export default function ServiceItem({ ...props }: ServiceItemProps) {
   return (
     <article className="h-full flex flex-col space-y-5" data-aos="fade-up">
       {props.metadata.thumbnail &&
-        <Link className="block group overflow-hidden" href={`/services/${props.slug}`}>
-          <Image className="w-full aspect-16/9 md:aspect-27/17 object-cover group-hover:scale-105 transition duration-700 ease-out" src={props.metadata.thumbnail} width={540} height={340} alt={props.metadata.title} />
+        <Link className="block group overflow-hidden bg-[#edeff4]" href={`/services/${props.slug}`}>
+          <Image className="w-full aspect-16/9 md:aspect-27/17 object-cover group-hover:scale-105 transition duration-700 ease-out grayscale opacity-90 mix-blend-multiply" src={props.metadata.thumbnail} width={540} height={340} alt={props.metadata.title} />
         </Link>
       }
       <div className="grow flex flex-col">

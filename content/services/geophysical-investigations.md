@@ -6,7 +6,7 @@ competencies:
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
   - serviceCluster: "design-planning"
-thumbnail: /images/services/geophysical-surveys/geophysical-surveys.png
+thumbnail: /images/services/geophysical-surveys/geophysical-surveys.jpg
 gallery: []
 ---
 

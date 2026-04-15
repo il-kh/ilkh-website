@@ -5,7 +5,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/subsurface-monitoring/subsurface-monitoring.png
+thumbnail: /images/services/subsurface-monitoring/subsurface-monitoring.jpg
 gallery: []
 ---
 

@@ -5,7 +5,7 @@ competencies:
   - competency: "surveying-geo-information-systems"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: "/images/services/topographic-surveys/topographic-surveys.png"
+thumbnail: "/images/services/topographic-surveys/topographic-surveys.jpg"
 gallery: []
 ---
 

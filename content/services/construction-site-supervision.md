@@ -5,7 +5,7 @@ competencies:
   - competency: "project-management-construction-supervision"
 serviceClusters:
   - serviceCluster: "construction-support"
-thumbnail: /images/services/construction-site-supervision/construction-site-supervision.png
+thumbnail: /images/services/construction-site-supervision/construction-site-supervision.jpg
 gallery: []
 ---
 

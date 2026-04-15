@@ -6,7 +6,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/foundation-load-verification/foundation-load-verification.png
+thumbnail: /images/services/foundation-load-verification/foundation-load-verification.jpg
 gallery: []
 ---
 

@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/environmental-social-safeguarding/environmental-social-safeguarding.png
+thumbnail: /images/services/environmental-social-safeguarding/environmental-social-safeguarding.jpg
 gallery: []
 ---
 

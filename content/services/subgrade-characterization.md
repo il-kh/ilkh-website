@@ -5,7 +5,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/subgrade-characterization/subgrade-characterization.png
+thumbnail: /images/services/subgrade-characterization/subgrade-characterization.jpg
 gallery: []
 ---
 

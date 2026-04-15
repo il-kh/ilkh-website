@@ -6,7 +6,7 @@ competencies:
 serviceClusters:
   - serviceCluster: "digital-design-analysis"
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/gis-mapping-analysis/gis-mapping-analysis.png
+thumbnail: /images/services/gis-mapping-analysis/gis-mapping-analysis.jpg
 gallery: []
 ---
 

@@ -7,7 +7,7 @@ competencies:
 serviceClusters:
   - serviceCluster: "engineering-assessment"
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/building-surveys/building-surveys.png
+thumbnail: /images/services/building-surveys/building-surveys.jpg
 gallery: []
 ---
 

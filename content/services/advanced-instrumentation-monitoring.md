@@ -5,7 +5,7 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/advanced-instrumentation-monitoring/advanced-instrumentation-monitoring.png
+thumbnail: /images/services/advanced-instrumentation-monitoring/advanced-instrumentation-monitoring.jpg
 gallery: []
 ---
 

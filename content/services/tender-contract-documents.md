@@ -5,7 +5,7 @@ competencies:
   - competency: "project-management-construction-supervision"
 serviceClusters:
   - serviceCluster: "construction-support"
-thumbnail: /images/services/tender-contract-documents/tender-contract-documents.png
+thumbnail: /images/services/tender-contract-documents/tender-contract-documents.jpg
 gallery: []
 ---
 

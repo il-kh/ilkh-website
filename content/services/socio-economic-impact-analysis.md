@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/socio-economic-impact-analysis/socio-economic-impact-analysis.png
+thumbnail: /images/services/socio-economic-impact-analysis/socio-economic-impact-analysis.jpg
 gallery: []
 ---
 

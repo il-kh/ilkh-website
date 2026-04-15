@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "design-planning"
-thumbnail: /images/services/conceptual-feasibility-studies/conceptual-feasibility-studies.png
+thumbnail: /images/services/conceptual-feasibility-studies/conceptual-feasibility-studies.jpg
 gallery: []
 ---
 

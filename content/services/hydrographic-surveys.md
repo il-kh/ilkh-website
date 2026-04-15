@@ -5,7 +5,7 @@ competencies:
   - competency: "surveying-geo-information-systems"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/hydrographic-surveys/hydrographic-surveys.png
+thumbnail: /images/services/hydrographic-surveys/hydrographic-surveys.jpg
 gallery: []
 ---
 

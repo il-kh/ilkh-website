@@ -5,7 +5,7 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "digital-design-analysis"
-thumbnail: /images/services/advanced-structural-analysis/advanced-structural-analysis.png
+thumbnail: /images/services/advanced-structural-analysis/advanced-structural-analysis.jpg
 gallery: []
 ---
 

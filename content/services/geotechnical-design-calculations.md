@@ -5,7 +5,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "design-planning"
-thumbnail: /images/services/geotechnical-design-calculations/geotechnical-design-calculations.png
+thumbnail: /images/services/geotechnical-design-calculations/geotechnical-design-calculations.jpg
 gallery: []
 ---
 

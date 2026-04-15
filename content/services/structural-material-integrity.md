@@ -5,7 +5,7 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "engineering-assessment"
-thumbnail: /images/services/structural-material-integrity/structural-material-integrity.png
+thumbnail: /images/services/structural-material-integrity/structural-material-integrity.jpg
 gallery: []
 ---
 

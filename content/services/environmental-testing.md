@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "environmental-geospatial"
-thumbnail: /images/services/environmental-testing/environmental-testing.png
+thumbnail: /images/services/environmental-testing/environmental-testing.jpg
 gallery: []
 ---
 

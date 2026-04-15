@@ -5,7 +5,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/soil-strength-assessment/soil-strength-assessment.png
+thumbnail: /images/services/soil-strength-assessment/soil-strength-assessment.jpg
 gallery: []
 ---
 

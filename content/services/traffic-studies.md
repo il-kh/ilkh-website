@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "design-planning"
-thumbnail: /images/services/traffic-studies/traffic-studies.png
+thumbnail: /images/services/traffic-studies/traffic-studies.jpg
 gallery: []
 ---
 

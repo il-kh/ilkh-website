@@ -6,7 +6,7 @@ competencies:
   - competency: "project-management-construction-supervision"
 serviceClusters:
   - serviceCluster: "materials-testing-qc"
-thumbnail: /images/services/materials-testing-quality-control/materials-testing-quality-control.png
+thumbnail: /images/services/materials-testing-quality-control/materials-testing-quality-control.jpg
 gallery: []
 ---
 

@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "digital-design-analysis"
-thumbnail: /images/services/road-design/road-design.png
+thumbnail: /images/services/road-design/road-design.jpg
 gallery: []
 ---
 

@@ -7,7 +7,7 @@ competencies:
 serviceClusters:
   - serviceCluster: "design-planning"
   - serviceCluster: "digital-design-analysis"
-thumbnail: /images/services/asset-management-systems/asset-management-systems.png
+thumbnail: /images/services/asset-management-systems/asset-management-systems.jpg
 gallery: []
 ---
 

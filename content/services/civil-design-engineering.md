@@ -7,7 +7,7 @@ competencies:
 serviceClusters:
   - serviceCluster: "digital-design-analysis"
   - serviceCluster: "design-planning"
-thumbnail: /images/services/civil-design-engineering/civil-design-engineering.png
+thumbnail: /images/services/civil-design-engineering/civil-design-engineering.jpg
 gallery: []
 ---
 

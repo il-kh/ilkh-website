@@ -5,7 +5,7 @@ competencies:
   - competency: "geotechnical-engineering"
 serviceClusters:
   - serviceCluster: "geotechnical-field-tests"
-thumbnail: /images/services/cone-penetration-tests/cone-penetration-tests.png
+thumbnail: /images/services/cone-penetration-tests/cone-penetration-tests.jpg
 gallery: []
 ---
 

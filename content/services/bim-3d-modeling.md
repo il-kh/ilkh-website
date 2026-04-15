@@ -5,7 +5,7 @@ competencies:
   - competency: "integrated-building-design"
 serviceClusters:
   - serviceCluster: "digital-design-analysis"
-thumbnail: /images/services/bim-3d-modeling/bim-3d-modeling.png
+thumbnail: /images/services/bim-3d-modeling/bim-3d-modeling.jpg
 gallery: []
 ---
 

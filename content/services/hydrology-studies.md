@@ -5,7 +5,7 @@ competencies:
   - competency: "infrastructure-environment"
 serviceClusters:
   - serviceCluster: "design-planning"
-thumbnail: /images/services/hydrology-studies/hydrology-studies.png
+thumbnail: /images/services/hydrology-studies/hydrology-studies.jpg
 gallery: []
 ---
 

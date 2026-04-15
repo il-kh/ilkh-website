@@ -5,7 +5,7 @@ competencies:
   - competency: "structural-engineering-building-assessment"
 serviceClusters:
   - serviceCluster: "design-planning"
-thumbnail: /images/services/structural-engineering-design/structural-engineering-design.png
+thumbnail: /images/services/structural-engineering-design/structural-engineering-design.jpg
 gallery: []
 ---
 
