@@ -13,9 +13,7 @@ dateStart: 2017-01-01T16:35:00.000+07:00
 dateEnd: 2021-12-31T12:00:00.000+07:00
 summary: Secondary inclusion school-building with three-court sports hall
 ---
-
-
-As part of the new construction of a three-storey secondary school in Brandenburg, Germany, we provided structural engineering services from schematic design through to detailed construction documentation for a school facility accommodating approximately 500 students.
+As part of the new construction of a three-storey [secondary school in Brandenburg, Germany](https://www.inros-lackner.de/en/projects/complex-buildings/research-and-educational-buildings/spree-secondary-school-germany), we provided structural engineering services from schematic design through to detailed construction documentation for a school facility accommodating approximately 500 students.
 
 The load-bearing structure in reinforced concrete solid construction imposes particular demands on structural design and analysis: Large floor span widths create column-free teaching and communal areas, enabling flexible room configurations. A defining architectural feature are the offset facade planes, which are structurally resolved through the targeted application of deep beams. These elements perform both load-bearing and lateral bracing functions, requiring careful analysis with regard to shear forces, bending moments and crack width limitations.
 
