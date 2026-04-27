@@ -9,7 +9,7 @@ services:
   - service: civil-design-engineering
 thumbnail: /images/projects/secondary-school-brandenburg-germany/323fe905bb74-spree-oberschule-1-_web.jpg
 isShowcase: false
-dateStart: 2020-09-27T12:00:00.000+07:00
+dateStart: 2017-01-01T16:35:00.000+07:00
 summary: Secondary inclusion school-building with three-court sports hall
 ---
 
