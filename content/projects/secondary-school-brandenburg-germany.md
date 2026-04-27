@@ -10,6 +10,7 @@ services:
 thumbnail: /images/projects/secondary-school-brandenburg-germany/323fe905bb74-spree-oberschule-1-_web.jpg
 isShowcase: false
 dateStart: 2017-01-01T16:35:00.000+07:00
+dateEnd: 2021-12-31T12:00:00.000+07:00
 summary: Secondary inclusion school-building with three-court sports hall
 ---
 
